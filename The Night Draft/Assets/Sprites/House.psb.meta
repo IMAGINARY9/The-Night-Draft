@@ -98,32 +98,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 197
-      y: 922
-      width: 6
-      height: 36
-    spriteID: 22f62d7a22523c349b085e6382ec336c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -123, y: 726}
-  - name: Layer 4
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
       x: 4
-      y: 994
-      width: 100
-      height: 20
-    spriteID: 82769bc37c8d674488de014b1882038d
+      y: 499
+      width: 8
+      height: 36
+    spriteID: ae2c746719336c549a58d44a957792d1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -132,70 +111,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -320, y: 798}
-  - name: Lamp
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 473
-      y: 724
-      width: 11
-      height: 27
-    spriteID: 7061dfbb7454bd24282b272ac6855272
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 41, y: 528}
-  - name: Table
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 112
-      y: 994
-      width: 18
-      height: 16
-    spriteID: 877485e0c227cc2479f359feb9a80f50
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -314, y: 798}
-  - name: Background
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 212
-      y: 696
-      width: 120
-      height: 56
-    spriteID: ccc9d341ca64efe43a50653a71a23e69
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -112, y: 500}
+    uvTransform: {x: -314, y: 303}
   - name: Room
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -203,11 +119,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 778
+      x: 460
+      y: 4
       width: 128
       height: 64
-    spriteID: 95961c8095a2e344e87c4d3db3cae08b
+    spriteID: f3b544dc7f443954ca8ba8272d809971
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -216,40 +132,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -316, y: 586}
-  - name: Door
+    uvTransform: {x: 140, y: -188}
+  - name: Bed
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 197
-      y: 778
-      width: 6
-      height: 36
-    spriteID: 071a3ebb1a2bfe34587d9f134071c70a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -123, y: 646}
-  - name: Layer 4
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 405
-      y: 528
+      x: 460
+      y: 220
       width: 100
       height: 20
-    spriteID: ebdd50e1f79c1d44e931b31f34364b16
+    spriteID: 44b15ba9ba29e5f419ff3178028fc036
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -258,7 +153,28 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 81, y: 396}
+    uvTransform: {x: 136, y: 24}
+  - name: Lamp copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1008
+      y: 220
+      width: 11
+      height: 27
+    spriteID: 4ab59c235567d0e40b1360b5e69f0ce6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 682, y: 24}
   - name: Lamp
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -266,11 +182,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 492
-      y: 724
+      x: 568
+      y: 220
       width: 11
       height: 27
-    spriteID: d55a9bab759fdb444a4e6ef46928fefe
+    spriteID: df358adf8542a2244b4442ff98da1274
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -279,7 +195,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 60, y: 592}
+    uvTransform: {x: 136, y: 24}
   - name: Table
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -287,11 +203,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 473
-      y: 868
+      x: 287
+      y: 459
       width: 18
       height: 16
-    spriteID: c26e958a0a3e07d449cc976aca0b06d9
+    spriteID: 0ac3e073515ae814fb2cd81362d34866
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -300,7 +216,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 47, y: 736}
+    uvTransform: {x: -139, y: 263}
   - name: Background
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -308,32 +224,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 212
-      y: 760
-      width: 120
-      height: 56
-    spriteID: 5810b1b0861411b46b468a2ff82139a8
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -112, y: 628}
-  - name: Room
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 850
+      x: 596
+      y: 4
       width: 128
       height: 64
-    spriteID: 3ab789b3102218d448fffdb3757d3d66
+    spriteID: 42fcea0b55ae822458050b0d9a5d7e2f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -342,7 +237,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -316, y: 722}
+    uvTransform: {x: 276, y: -188}
   - name: Door
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -350,11 +245,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 197
-      y: 850
-      width: 6
+      x: 4
+      y: 543
+      width: 8
       height: 36
-    spriteID: acad0510e35f3bc4f890abf43356b11c
+    spriteID: 974c05162b7d4c54695d266e42c211fe
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -363,19 +258,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -123, y: 782}
-  - name: Layer 4
+    uvTransform: {x: -118, y: 347}
+  - name: Room
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 405
-      y: 556
-      width: 100
-      height: 20
-    spriteID: 89d5419bd8fa0374c9d74adcd99f3e5e
+      x: 732
+      y: 4
+      width: 128
+      height: 64
+    spriteID: aa42c77962dfa6949840e1c1db9cb50f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -384,7 +279,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 81, y: 488}
+    uvTransform: {x: 732, y: -188}
   - name: Lamp
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -392,11 +287,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 473
-      y: 760
+      x: 704
+      y: 220
       width: 11
       height: 27
-    spriteID: b91fcf78a969bc04bbe787737dc346dc
+    spriteID: 86938b41390e39244b3abe8514623aec
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -405,7 +300,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 41, y: 692}
+    uvTransform: {x: 699, y: 24}
   - name: Table
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -413,11 +308,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 348
-      y: 1004
+      x: 313
+      y: 459
       width: 18
       height: 16
-    spriteID: 45eb86e6467fb6c44a341d5ff80ee640
+    spriteID: 0190a9d97ddc7b74486ca36492bc35e3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -426,7 +321,28 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -78, y: 936}
+    uvTransform: {x: 309, y: 263}
+  - name: Bed
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 395
+      width: 77
+      height: 20
+    spriteID: 4c5a90dbbfc8e0546be6734bd05ec31b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 110, y: 199}
   - name: Background
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -434,32 +350,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 212
-      y: 824
-      width: 120
-      height: 56
-    spriteID: 04af2747023ffda4ba2c33cfb1c825bb
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -112, y: 756}
-  - name: Room
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 922
+      x: 868
+      y: 4
       width: 128
       height: 64
-    spriteID: ec07ef738edd6fb4fab6ddaedd52d585
+    spriteID: 98bac58b0c324a04c939063d0362b827
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -468,7 +363,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -316, y: 858}
+    uvTransform: {x: 868, y: -188}
   - name: Door
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -476,11 +371,305 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 486
+      x: 4
+      y: 587
+      width: 8
+      height: 36
+    spriteID: 08bd7f97a8b5a2645a8465bce432437c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -314, y: 519}
+  - name: Room
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 76
+      width: 128
+      height: 64
+    spriteID: 153a289806955554b9636d9b00babdbd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 140, y: 12}
+  - name: Lamp
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 840
+      y: 220
+      width: 11
+      height: 27
+    spriteID: c3087e05579b570449076bcb4af2b6fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 408, y: 152}
+  - name: Table
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 339
+      y: 459
+      width: 18
+      height: 16
+    spriteID: 8988163ce978c22449426defe1e00b27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -87, y: 391}
+  - name: Bed
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 220
+      width: 100
+      height: 20
+    spriteID: e547427d30ee2b54697dbfbf0bca7d1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 252, y: 152}
+  - name: Background
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 76
+      width: 128
+      height: 64
+    spriteID: dab24d3bc0ab2bf449de2da5d867f77c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 276, y: 12}
+  - name: Door
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 631
+      width: 8
+      height: 36
+    spriteID: 605f9ba329e9b3542950378aeec97a48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -118, y: 563}
+  - name: Room
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 732
+      y: 76
+      width: 128
+      height: 64
+    spriteID: 69e14e7a99a74604ab5a93f8bdcb558e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 732, y: 12}
+  - name: Bed
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 732
+      y: 220
+      width: 100
+      height: 20
+    spriteID: ebb52566f8e078340a858e227836d2d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 708, y: 152}
+  - name: Lamp
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 459
+      width: 11
+      height: 27
+    spriteID: 38e392dd4f4b20644bf136aaeaae99d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 263, y: 391}
+  - name: Table
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 365
+      y: 459
+      width: 18
+      height: 16
+    spriteID: e2f8a0d756bdb3c4984672a15ac2c7c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 361, y: 391}
+  - name: Background
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 868
+      y: 76
+      width: 128
+      height: 64
+    spriteID: 315eb1c2e73c11548ad1e48012521340
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 868, y: 12}
+  - name: Door
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 675
+      width: 8
+      height: 36
+    spriteID: e7a7c8eb1c18ab84e916d9e24a743347
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -314, y: 543}
+  - name: Room
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 148
+      width: 128
+      height: 64
+    spriteID: b2a92b3bc41f51d4c91edfda7474fcfd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 140, y: 20}
+  - name: Layer 1 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 986
       y: 268
-      width: 6
-      height: 36
-    spriteID: fc196bc185f98804a875b1d32795e013
+      width: 27
+      height: 56
+    spriteID: 93b25dd6ca6b2814094a657ee7459a60
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -489,19 +678,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 166, y: 264}
-  - name: Layer 4
+    uvTransform: {x: 634, y: 136}
+  - name: Layer 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 405
-      y: 584
-      width: 100
-      height: 20
-    spriteID: c66e3dcc04e35a34ea17a4e5fcec5217
+      x: 4
+      y: 435
+      width: 27
+      height: 56
+    spriteID: 3e7e31524d4a7ee4d938ea2a59b257ee
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -510,19 +699,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 81, y: 580}
-  - name: Lamp
+    uvTransform: {x: -373, y: 303}
+  - name: Furnace side
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 492
-      y: 760
-      width: 11
-      height: 27
-    spriteID: eac959056572eb4448ff1449c23ad7a4
+      x: 220
+      y: 435
+      width: 16
+      height: 53
+    spriteID: 73b95f475e080084f86985c3d498dd1d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -531,28 +720,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 60, y: 756}
-  - name: Table
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 374
-      y: 1004
-      width: 18
-      height: 16
-    spriteID: df5f6bb8f806db34d82d64bf35ef2b70
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -52, y: 1000}
+    uvTransform: {x: -208, y: 303}
   - name: Background
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -560,11 +728,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 212
-      y: 888
-      width: 120
-      height: 56
-    spriteID: a1d4c252b536cf644abb7be4dccec765
+      x: 596
+      y: 148
+      width: 128
+      height: 64
+    spriteID: a127963de2db0994d886b1c31083fed1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -573,7 +741,28 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -112, y: 884}
+    uvTransform: {x: 276, y: 20}
+  - name: Door
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 719
+      width: 8
+      height: 36
+    spriteID: 92ae5e896d20e614490ad610ad0159bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -118, y: 587}
   - name: Room
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -581,11 +770,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 212
-      y: 336
+      x: 732
+      y: 148
       width: 128
       height: 64
-    spriteID: ce783333d29c92d48ac84d60b0dab58c
+    spriteID: f2c296e33d3c22247bfa6dad9d2dfbd7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -594,8 +783,680 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -108, y: 336}
+    uvTransform: {x: 732, y: 20}
+  - name: Table
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 990
+      y: 340
+      width: 22
+      height: 16
+    spriteID: d9049a08a0bf9b7448264f59621be508
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 929, y: 208}
+  - name: Furnace 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1004
+      y: 4
+      width: 16
+      height: 56
+    spriteID: cadf7678e7f87094b8ef5121e7d87f63
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 916, y: -128}
+  - name: 'Furnace '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1004
+      y: 76
+      width: 16
+      height: 56
+    spriteID: 7b863c73a8599ae4289107db67d5a39f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 964, y: -56}
+  - name: Furnace side
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 435
+      width: 18
+      height: 53
+    spriteID: 2257fbf3f2756d94ab095a88ab299f5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 140, y: 303}
+  - name: Background
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 868
+      y: 148
+      width: 128
+      height: 64
+    spriteID: 8a38df645dce04247aeef2c917045ec6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 868, y: 20}
   - name: Door
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 763
+      width: 8
+      height: 36
+    spriteID: fb11ae7bb54acf246a2b6f63266f13af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -314, y: 759}
+  - name: Room
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 268
+      width: 128
+      height: 64
+    spriteID: 70be396da4a83ee44a95ae63e1c6559f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -316, y: 268}
+  - name: Table
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 990
+      y: 364
+      width: 22
+      height: 16
+    spriteID: dc0133145af6ed8498467c1ebc1fecd7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 596, y: 360}
+  - name: Furnace 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1004
+      y: 148
+      width: 16
+      height: 56
+    spriteID: fccfc8953af8da0419e30f557f92bfd0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 660, y: 144}
+  - name: 'Furnace '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 435
+      width: 16
+      height: 56
+    spriteID: 35cbf98b0c406e0489913404e581f892
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -173, y: 431}
+  - name: Furnace side
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 435
+      width: 18
+      height: 53
+    spriteID: ab00ad11bc0acca41a74730df8e67192
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -256, y: 431}
+  - name: Background
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 268
+      width: 128
+      height: 64
+    spriteID: 7b22c0e9a066a4f4fb3edb2474c68c58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -180, y: 268}
+  - name: Door
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 807
+      width: 8
+      height: 36
+    spriteID: b200e6f90394c0544bf56b0aa66285fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -118, y: 803}
+  - name: Room
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 268
+      width: 128
+      height: 64
+    spriteID: 4cfea967edbb02f478037c5a4de44857
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 276, y: 268}
+  - name: Layer 1 copy 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 39
+      y: 435
+      width: 27
+      height: 56
+    spriteID: b92e95fd656c6264fbd648cf13a346fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -46, y: 431}
+  - name: Layer 1 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 435
+      width: 27
+      height: 56
+    spriteID: 6bd2836933afc214fab53ddeaac05a72
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 14, y: 431}
+  - name: Layer 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 435
+      width: 27
+      height: 56
+    spriteID: 74446ac515c6507469c5f987ab45f271
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 74, y: 431}
+  - name: Furnace side
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 435
+      width: 16
+      height: 53
+    spriteID: c2249a59d751b06448279b08def37c82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 240, y: 431}
+  - name: Background
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 268
+      width: 128
+      height: 64
+    spriteID: 202beb763632ef44eb6301604db3cc8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 412, y: 268}
+  - name: Floor active
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 430
+      y: 380
+      width: 132
+      height: 4
+    spriteID: ccc9adb988286ab45a58a5c8b62aba83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 272, y: 188}
+  - name: Floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 435
+      width: 192
+      height: 4
+    spriteID: 2ec1ee8548edec042a35d7c16db0adb7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 140, y: 243}
+  - name: Floor active
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 570
+      y: 380
+      width: 132
+      height: 4
+    spriteID: 1311cdc5bab5734438aec667d1869798
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 412, y: 252}
+  - name: Floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 468
+      y: 435
+      width: 192
+      height: 4
+    spriteID: e8f627dfcdabfef41afc4317cd16a6f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 340, y: 307}
+  - name: Handrail low
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 340
+      width: 134
+      height: 47
+    spriteID: 86c5b17a01d29254da92f146db7bc511
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -153, y: 208}
+  - name: Handrail high
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 268
+      width: 138
+      height: 52
+    spriteID: 98d8477df3cc9d642bb8af7e42c90102
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 393, y: 104}
+  - name: Stairs middle
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 248
+      width: 32
+      height: 4
+    spriteID: f1a845d8a7bc58b49af203caa4cdfcdb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 251, y: 92}
+  - name: Stairs low
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 868
+      y: 220
+      width: 132
+      height: 32
+    spriteID: c03c4410ffbf3c64ba9178bc00fb1b38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 709, y: 92}
+  - name: Stairs high
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 430
+      y: 340
+      width: 132
+      height: 32
+    spriteID: e8e1253aad214fd43b9ca297653b026f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 272, y: 180}
+  - name: Floor active
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 710
+      y: 380
+      width: 132
+      height: 4
+    spriteID: b86b5af4e95c1dc4d9ba0493d1f9cb3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 552, y: 316}
+  - name: Floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 668
+      y: 435
+      width: 192
+      height: 4
+    spriteID: 50ac9269796cdba4c9ff524da13133c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 540, y: 371}
+  - name: Handrail low
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 146
+      y: 340
+      width: 134
+      height: 47
+    spriteID: f7fc48d68909a5e4fb1f7ca55a56d1a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -11, y: 272}
+  - name: Handrail high
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 694
+      y: 268
+      width: 138
+      height: 52
+    spriteID: eee921ff73d3f934d9e2731378288b50
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 539, y: 168}
+  - name: Stairs middle
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -603,10 +1464,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 500
-      y: 268
-      width: 6
-      height: 36
-    spriteID: dbd275341b2967845b12f0d2355bee45
+      y: 248
+      width: 32
+      height: 4
+    spriteID: 601553a0e05222f4f8aafc777204ada0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -615,19 +1476,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 378, y: 72}
-  - name: Layer 4
+    uvTransform: {x: 292, y: 156}
+  - name: Stairs low
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 405
-      y: 612
-      width: 100
-      height: 20
-    spriteID: 66c3b85c6fe256a4995c5c7acf2e35d8
+      x: 570
+      y: 340
+      width: 132
+      height: 32
+    spriteID: 1d00506aeb952734e82033af52db2ea0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -636,19 +1497,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 381, y: 416}
-  - name: Lamp
+    uvTransform: {x: 412, y: 276}
+  - name: Stairs high
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 473
-      y: 796
-      width: 11
-      height: 27
-    spriteID: b966db0daef28344e8676f3a045dfc8f
+      x: 710
+      y: 340
+      width: 132
+      height: 32
+    spriteID: fd4faadbc0adfd64b8a0bfde2a803865
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -657,19 +1518,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 468, y: 600}
-  - name: Table
+    uvTransform: {x: 552, y: 244}
+  - name: Floor active
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 476
-      y: 336
-      width: 18
-      height: 16
-    spriteID: 97f3c8b59fe09b948b588071e92d4c6a
+      x: 548
+      y: 328
+      width: 132
+      height: 4
+    spriteID: 51854749762a25d42ba96e4ccc07ae3f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -678,19 +1539,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 472, y: 140}
-  - name: Background
+    uvTransform: {x: 390, y: 328}
+  - name: Stairs middle
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 212
-      y: 952
-      width: 120
-      height: 56
-    spriteID: 6b523d638f59a024bb9fe35b7c232437
+      x: 596
+      y: 248
+      width: 32
+      height: 4
+    spriteID: ff3808619f792ec4aa935bb3bf90f194
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -699,418 +1560,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 208, y: 756}
-  - name: Room
+    uvTransform: {x: 388, y: 220}
+  - name: Floor
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 212
-      y: 408
-      width: 128
-      height: 64
-    spriteID: f1dda8dddc4d36e4bba4ddf08fca4bf5
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 212, y: 216}
-  - name: Door
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 476
-      y: 464
-      width: 6
-      height: 36
-    spriteID: 6877821b8578a3e49a18ad3a123ae4d4
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 354, y: 332}
-  - name: Layer 4
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 405
-      y: 640
-      width: 100
-      height: 20
-    spriteID: 6c53a5a20bde4474fad09cdc04e083d0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 381, y: 508}
-  - name: Lamp
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 492
-      y: 796
-      width: 11
-      height: 27
-    spriteID: 0393e5573e4ab794d9f898f0f4b40e40
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 487, y: 664}
-  - name: Table
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 476
-      y: 360
-      width: 18
-      height: 16
-    spriteID: 6f1cb9f95cd88ad4692559c979f7bc1c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 472, y: 228}
-  - name: Background
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 348
-      y: 336
-      width: 120
-      height: 56
-    spriteID: 7eec5865ff93e714fbeddcb409448757
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 344, y: 204}
-  - name: Room
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 212
-      y: 480
-      width: 128
-      height: 64
-    spriteID: 82e2f52ad03773c47ad1d27911d121ca
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 212, y: 352}
-  - name: Door
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 490
-      y: 464
-      width: 6
-      height: 36
-    spriteID: 763e6900e2192774ea9d897a7ff28200
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 368, y: 396}
-  - name: Layer 4
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 405
-      y: 668
-      width: 100
-      height: 20
-    spriteID: f67c01ace9881034b8ad5b8b86e7a0b4
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 381, y: 600}
-  - name: Lamp
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 473
-      y: 832
-      width: 11
-      height: 27
-    spriteID: f908c9779553f754f8009d9987ab1577
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 468, y: 764}
-  - name: Table
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 476
-      y: 400
-      width: 18
-      height: 16
-    spriteID: e7df63035cbb3a746bc36ae912168ec0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 472, y: 332}
-  - name: Background
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 348
-      y: 400
-      width: 120
-      height: 56
-    spriteID: 59852ba964f45e54d825a942e05b9b2c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 344, y: 332}
-  - name: Room
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 212
-      y: 552
-      width: 128
-      height: 64
-    spriteID: 131c51cd9692e9540a82e89cb3b9155b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 212, y: 488}
-  - name: Door
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 458
-      y: 976
-      width: 6
-      height: 36
-    spriteID: 1cdbb3e302d94ea44b22cd48110e9108
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 336, y: 972}
-  - name: Layer 4
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 405
-      y: 696
-      width: 100
-      height: 20
-    spriteID: 77b3985bac154cc43b542b4a319bccf8
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 381, y: 692}
-  - name: Lamp
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 492
-      y: 832
-      width: 11
-      height: 27
-    spriteID: b46b7c7db9c7f7245a37e5c20ba8a324
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 487, y: 828}
-  - name: Table
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 476
-      y: 424
-      width: 18
-      height: 16
-    spriteID: 971e49f0e261ee044932629ef7312453
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 472, y: 420}
-  - name: Background
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 348
-      y: 464
-      width: 120
-      height: 56
-    spriteID: c46a107281f11e646952f92afc4745c4
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 344, y: 460}
-  - name: Room
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 212
-      y: 624
-      width: 128
-      height: 64
-    spriteID: 9b706c283aefce64bbcd65d560b806cc
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 212, y: 624}
-  - name: Room
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 344
+      x: 268
+      y: 447
       width: 192
-      height: 68
-    spriteID: 1957800b7c595454498bf26cc30b1681
+      height: 4
+    spriteID: e8d463c3234bccf42ad1f08d07b831e4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1119,19 +1581,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -124, y: 344}
-  - name: Layer 3
+    uvTransform: {x: 140, y: 447}
+  - name: Handrail low
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 140
-      y: 778
-      width: 49
+      x: 288
+      y: 340
+      width: 134
       height: 47
-    spriteID: d9e897e4bd60f574ab260817cccc5f6e
+    spriteID: c5cea7c42c13a0c439985c1e4fb123e8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1140,82 +1602,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -17, y: 774}
-  - name: Layer 4
+    uvTransform: {x: 131, y: 336}
+  - name: Handrail high
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 140
-      y: 850
-      width: 49
-      height: 47
-    spriteID: a3e8b3ddb17aa87459d2fabe554d56c2
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -27, y: 818}
-  - name: Stairs high
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 348
-      y: 968
-      width: 45
-      height: 28
-    spriteID: 8e19628d347402d489621c160b1c8e44
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 184, y: 936}
-  - name: Stairs low
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 140
-      y: 977
-      width: 60
-      height: 28
-    spriteID: b46a627effbda8d4fb66585ac14e5bbb
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -24, y: 973}
-  - name: Layer 1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 429
+      x: 840
       y: 268
-      width: 49
-      height: 47
-    spriteID: c2a72d6cc963dd449ae77c1b4f1e743d
+      width: 138
+      height: 52
+    spriteID: 84a824a6951218a459dc3411c4c407b5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1224,28 +1623,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 187, y: 264}
-  - name: Layer 2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 140
-      y: 922
-      width: 49
-      height: 47
-    spriteID: 7c243cbcfcf2b6947aa057b6d18bbdd7
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -92, y: 890}
+    uvTransform: {x: 685, y: 232}
   - name: Stairs high
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1253,11 +1631,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 405
-      y: 904
-      width: 45
-      height: 28
-    spriteID: 4a1c98b5f671cb547a17891ac4568b84
+      x: 850
+      y: 340
+      width: 132
+      height: 32
+    spriteID: 2dba6ca245ac82445bd6087cc606c496
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1266,7 +1644,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 166, y: 872}
+    uvTransform: {x: 692, y: 308}
   - name: Stairs low
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1274,53 +1652,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 405
-      y: 724
-      width: 60
-      height: 28
-    spriteID: 92b51ce8edd39244bb2db936988fe8e7
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 181, y: 720}
-  - name: Layer 5
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 499
-      y: 868
-      width: 6
-      height: 24
-    spriteID: 2725579f293a330438a51a5d3d7b0411
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 278, y: 865}
-  - name: Background
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
       x: 4
-      y: 713
-      width: 194
-      height: 57
-    spriteID: e718ab940e545b747b6918556faad70c
+      y: 395
+      width: 132
+      height: 32
+    spriteID: 3b06e93898fefd54190c2523210d591b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1329,511 +1665,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -123, y: 709}
-  - name: Room
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 420
-      width: 192
-      height: 68
-    spriteID: dbb0f424915403348b31671c5f3053a7
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -124, y: 356}
-  - name: Layer 3
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 348
-      y: 528
-      width: 49
-      height: 47
-    spriteID: b7aebb12bbfb5ba4e9721209d3fd3a7d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 191, y: 460}
-  - name: Layer 4
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 348
-      y: 583
-      width: 49
-      height: 47
-    spriteID: 3a1c48a67d6dd7244a948f66f431af1b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 181, y: 487}
-  - name: Stairs high
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 405
-      y: 940
-      width: 45
-      height: 28
-    spriteID: 3b5dad0293c58e146b982d7393fa87da
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 241, y: 844}
-  - name: Stairs low
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 405
-      y: 760
-      width: 60
-      height: 28
-    spriteID: 3bd75adb0b397144aa2e4aac00e10da0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 241, y: 692}
-  - name: Layer 1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 348
-      y: 638
-      width: 49
-      height: 47
-    spriteID: 0324b339239151a4d9d5a218323a248c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 106, y: 570}
-  - name: Layer 2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 348
-      y: 693
-      width: 49
-      height: 47
-    spriteID: 6a2ad88e706613049a3977ccea9ec3a9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 116, y: 597}
-  - name: Stairs high
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 405
-      y: 976
-      width: 45
-      height: 28
-    spriteID: 17ad563501d4d44409d271b83268a8d3
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 166, y: 880}
-  - name: Stairs low
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 405
-      y: 796
-      width: 60
-      height: 28
-    spriteID: 66117e1d560cc4e4dbae6191d4dc1bf3
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 181, y: 728}
-  - name: Layer 5
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 502
-      y: 360
-      width: 6
-      height: 24
-    spriteID: 3624afb3e04bb4541ab4bf0259d3e5fc
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 281, y: 293}
-  - name: Background
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 268
-      width: 200
-      height: 68
-    spriteID: 5252ba706402cb84d8213ae433a4f9f6
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -124, y: 204}
-  - name: Room
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 496
-      width: 192
-      height: 68
-    spriteID: 5447bacf69a5ef4469f4a81d30e66762
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -124, y: 368}
-  - name: Layer 3
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 348
-      y: 748
-      width: 49
-      height: 47
-    spriteID: f526382f1da78524aa356d0fd969aa4e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 191, y: 616}
-  - name: Layer 4
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 348
-      y: 803
-      width: 49
-      height: 47
-    spriteID: 7deca4db7d27ac1469a04908aca86e63
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 181, y: 643}
-  - name: Stairs high
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 458
-      y: 904
-      width: 45
-      height: 28
-    spriteID: 14e27209932f8d44bb39c9c73f833f18
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 294, y: 744}
-  - name: Stairs low
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 405
-      y: 832
-      width: 60
-      height: 28
-    spriteID: b9f579be140a6d54abd69d696ebffe69
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 241, y: 700}
-  - name: Layer 1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 348
-      y: 858
-      width: 49
-      height: 47
-    spriteID: 4caa18c3af00988418a9fcedfe8bc05e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 106, y: 726}
-  - name: Layer 2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 348
-      y: 913
-      width: 49
-      height: 47
-    spriteID: 7a95514c3a9c1dd4fb9196a1982d6a10
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 116, y: 753}
-  - name: Stairs high
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 458
-      y: 940
-      width: 45
-      height: 28
-    spriteID: c979348dde84c8d46b50d60a4b920d7d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 219, y: 780}
-  - name: Stairs low
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 405
-      y: 868
-      width: 60
-      height: 28
-    spriteID: 78b9e7aafcecc524fbc5edbf4d41c025
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 181, y: 736}
-  - name: Layer 5
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 502
-      y: 424
-      width: 6
-      height: 24
-    spriteID: 3ff1a04475574b4439e5af12392c43e5
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 281, y: 293}
-  - name: Background
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 647
-      width: 195
-      height: 58
-    spriteID: a465fa95e232b9b45afb20847bf6a111
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -123, y: 515}
-  - name: Room
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 572
-      width: 192
-      height: 67
-    spriteID: 5a04e2a383ccf0842bfe7090de0648eb
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -124, y: 383}
-  - name: Background
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 212
-      y: 268
-      width: 209
-      height: 60
-    spriteID: 479113eaa4a8e7246b431a45a21cf59a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 99, y: 72}
+    uvTransform: {x: -154, y: 395}
   - name: Background
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1845,7 +1677,7 @@ ScriptedImporter:
       y: 4
       width: 448
       height: 256
-    spriteID: 354371ec362fbcb44bbcee61485fefca
+    spriteID: 799f0dcbb729bbd4f80159ee8d1ac5d8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1874,7 +1706,7 @@ ScriptedImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     forceMaximumCompressionQuality_BC6H_BC7: 0
     crunchedCompression: 0
@@ -1929,12 +1761,12 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Room copy 3
+  - name: Room 4 Right
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 3deef3b552a012e47ae76275f7fa5729
-    layerID: 67
+    spriteID: 5dd78864e57f619489553d6b62cf98b6
+    layerID: 288
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
@@ -1943,49 +1775,9 @@ ScriptedImporter:
     spriteName: Door
     isGroup: 0
     parentIndex: 0
-    spriteID: 22f62d7a22523c349b085e6382ec336c
-    layerID: 66
-    mosaicPosition: {x: 197, y: 922}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Layer 4
-    spriteName: Layer 4
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 82769bc37c8d674488de014b1882038d
-    layerID: 65
-    mosaicPosition: {x: 4, y: 994}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Lamp
-    spriteName: Lamp
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 7061dfbb7454bd24282b272ac6855272
-    layerID: 64
-    mosaicPosition: {x: 473, y: 724}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Table
-    spriteName: Table
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 877485e0c227cc2479f359feb9a80f50
-    layerID: 63
-    mosaicPosition: {x: 112, y: 994}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Background
-    spriteName: Background
-    isGroup: 0
-    parentIndex: 0
-    spriteID: ccc9d341ca64efe43a50653a71a23e69
-    layerID: 62
-    mosaicPosition: {x: 212, y: 696}
+    spriteID: ae2c746719336c549a58d44a957792d1
+    layerID: 287
+    mosaicPosition: {x: 4, y: 499}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1993,18 +1785,68 @@ ScriptedImporter:
     spriteName: Room
     isGroup: 0
     parentIndex: 0
-    spriteID: 95961c8095a2e344e87c4d3db3cae08b
-    layerID: 61
-    mosaicPosition: {x: 4, y: 778}
+    spriteID: f3b544dc7f443954ca8ba8272d809971
+    layerID: 286
+    mosaicPosition: {x: 460, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Room copy 3
+  - name: Bed
+    spriteName: Bed
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 44b15ba9ba29e5f419ff3178028fc036
+    layerID: 285
+    mosaicPosition: {x: 460, y: 220}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Lamp copy
+    spriteName: Lamp copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 4ab59c235567d0e40b1360b5e69f0ce6
+    layerID: 289
+    mosaicPosition: {x: 1008, y: 220}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Lamp
+    spriteName: Lamp
+    isGroup: 0
+    parentIndex: 0
+    spriteID: df358adf8542a2244b4442ff98da1274
+    layerID: 284
+    mosaicPosition: {x: 568, y: 220}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Table
+    spriteName: Table
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 0ac3e073515ae814fb2cd81362d34866
+    layerID: 283
+    mosaicPosition: {x: 287, y: 459}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Background
+    spriteName: Background
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 42fcea0b55ae822458050b0d9a5d7e2f
+    layerID: 282
+    mosaicPosition: {x: 596, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Room 4 Left
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: f00008b6f37d3b646b71c1f919c41344
-    layerID: 59
+    spriteID: c334ee5abd7337f4a99dc85ac24ef215
+    layerID: 280
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
@@ -2012,69 +1854,69 @@ ScriptedImporter:
   - name: Door
     spriteName: Door
     isGroup: 0
-    parentIndex: 7
-    spriteID: 071a3ebb1a2bfe34587d9f134071c70a
-    layerID: 58
-    mosaicPosition: {x: 197, y: 778}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Layer 4
-    spriteName: Layer 4
-    isGroup: 0
-    parentIndex: 7
-    spriteID: ebdd50e1f79c1d44e931b31f34364b16
-    layerID: 57
-    mosaicPosition: {x: 405, y: 528}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Lamp
-    spriteName: Lamp
-    isGroup: 0
-    parentIndex: 7
-    spriteID: d55a9bab759fdb444a4e6ef46928fefe
-    layerID: 56
-    mosaicPosition: {x: 492, y: 724}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Table
-    spriteName: Table
-    isGroup: 0
-    parentIndex: 7
-    spriteID: c26e958a0a3e07d449cc976aca0b06d9
-    layerID: 55
-    mosaicPosition: {x: 473, y: 868}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Background
-    spriteName: Background
-    isGroup: 0
-    parentIndex: 7
-    spriteID: 5810b1b0861411b46b468a2ff82139a8
-    layerID: 54
-    mosaicPosition: {x: 212, y: 760}
+    parentIndex: 8
+    spriteID: 974c05162b7d4c54695d266e42c211fe
+    layerID: 279
+    mosaicPosition: {x: 4, y: 543}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Room
     spriteName: Room
     isGroup: 0
-    parentIndex: 7
-    spriteID: 3ab789b3102218d448fffdb3757d3d66
-    layerID: 53
-    mosaicPosition: {x: 4, y: 850}
+    parentIndex: 8
+    spriteID: aa42c77962dfa6949840e1c1db9cb50f
+    layerID: 278
+    mosaicPosition: {x: 732, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Room copy 3
+  - name: Lamp
+    spriteName: Lamp
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 86938b41390e39244b3abe8514623aec
+    layerID: 276
+    mosaicPosition: {x: 704, y: 220}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Table
+    spriteName: Table
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 0190a9d97ddc7b74486ca36492bc35e3
+    layerID: 275
+    mosaicPosition: {x: 313, y: 459}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bed
+    spriteName: Bed
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 4c5a90dbbfc8e0546be6734bd05ec31b
+    layerID: 277
+    mosaicPosition: {x: 144, y: 395}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Background
+    spriteName: Background
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 98bac58b0c324a04c939063d0362b827
+    layerID: 274
+    mosaicPosition: {x: 868, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Room 2 Right
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: edfd6c3a546a3794ea51b89b8e3bb948
-    layerID: 51
+    spriteID: 97de4518e7148d1428a4f8e7b3503122
+    layerID: 272
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
@@ -2082,69 +1924,69 @@ ScriptedImporter:
   - name: Door
     spriteName: Door
     isGroup: 0
-    parentIndex: 14
-    spriteID: acad0510e35f3bc4f890abf43356b11c
-    layerID: 50
-    mosaicPosition: {x: 197, y: 850}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Layer 4
-    spriteName: Layer 4
-    isGroup: 0
-    parentIndex: 14
-    spriteID: 89d5419bd8fa0374c9d74adcd99f3e5e
-    layerID: 49
-    mosaicPosition: {x: 405, y: 556}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Lamp
-    spriteName: Lamp
-    isGroup: 0
-    parentIndex: 14
-    spriteID: b91fcf78a969bc04bbe787737dc346dc
-    layerID: 48
-    mosaicPosition: {x: 473, y: 760}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Table
-    spriteName: Table
-    isGroup: 0
-    parentIndex: 14
-    spriteID: 45eb86e6467fb6c44a341d5ff80ee640
-    layerID: 47
-    mosaicPosition: {x: 348, y: 1004}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Background
-    spriteName: Background
-    isGroup: 0
-    parentIndex: 14
-    spriteID: 04af2747023ffda4ba2c33cfb1c825bb
-    layerID: 46
-    mosaicPosition: {x: 212, y: 824}
+    parentIndex: 15
+    spriteID: 08bd7f97a8b5a2645a8465bce432437c
+    layerID: 271
+    mosaicPosition: {x: 4, y: 587}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Room
     spriteName: Room
     isGroup: 0
-    parentIndex: 14
-    spriteID: ec07ef738edd6fb4fab6ddaedd52d585
-    layerID: 45
-    mosaicPosition: {x: 4, y: 922}
+    parentIndex: 15
+    spriteID: 153a289806955554b9636d9b00babdbd
+    layerID: 270
+    mosaicPosition: {x: 460, y: 76}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Room copy 3
+  - name: Lamp
+    spriteName: Lamp
+    isGroup: 0
+    parentIndex: 15
+    spriteID: c3087e05579b570449076bcb4af2b6fb
+    layerID: 268
+    mosaicPosition: {x: 840, y: 220}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Table
+    spriteName: Table
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 8988163ce978c22449426defe1e00b27
+    layerID: 267
+    mosaicPosition: {x: 339, y: 459}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bed
+    spriteName: Bed
+    isGroup: 0
+    parentIndex: 15
+    spriteID: e547427d30ee2b54697dbfbf0bca7d1d
+    layerID: 269
+    mosaicPosition: {x: 596, y: 220}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Background
+    spriteName: Background
+    isGroup: 0
+    parentIndex: 15
+    spriteID: dab24d3bc0ab2bf449de2da5d867f77c
+    layerID: 266
+    mosaicPosition: {x: 596, y: 76}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Room 2 Left
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 4bee3b32097f8e74fa728db5b16771d9
-    layerID: 43
+    spriteID: 474ed4a4030dc4341869ed6cd8912682
+    layerID: 264
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
@@ -2152,69 +1994,69 @@ ScriptedImporter:
   - name: Door
     spriteName: Door
     isGroup: 0
-    parentIndex: 21
-    spriteID: fc196bc185f98804a875b1d32795e013
-    layerID: 42
-    mosaicPosition: {x: 486, y: 268}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Layer 4
-    spriteName: Layer 4
-    isGroup: 0
-    parentIndex: 21
-    spriteID: c66e3dcc04e35a34ea17a4e5fcec5217
-    layerID: 41
-    mosaicPosition: {x: 405, y: 584}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Lamp
-    spriteName: Lamp
-    isGroup: 0
-    parentIndex: 21
-    spriteID: eac959056572eb4448ff1449c23ad7a4
-    layerID: 40
-    mosaicPosition: {x: 492, y: 760}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Table
-    spriteName: Table
-    isGroup: 0
-    parentIndex: 21
-    spriteID: df5f6bb8f806db34d82d64bf35ef2b70
-    layerID: 39
-    mosaicPosition: {x: 374, y: 1004}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Background
-    spriteName: Background
-    isGroup: 0
-    parentIndex: 21
-    spriteID: a1d4c252b536cf644abb7be4dccec765
-    layerID: 38
-    mosaicPosition: {x: 212, y: 888}
+    parentIndex: 22
+    spriteID: 605f9ba329e9b3542950378aeec97a48
+    layerID: 263
+    mosaicPosition: {x: 4, y: 631}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Room
     spriteName: Room
     isGroup: 0
-    parentIndex: 21
-    spriteID: ce783333d29c92d48ac84d60b0dab58c
-    layerID: 37
-    mosaicPosition: {x: 212, y: 336}
+    parentIndex: 22
+    spriteID: 69e14e7a99a74604ab5a93f8bdcb558e
+    layerID: 262
+    mosaicPosition: {x: 732, y: 76}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Room copy 2
+  - name: Bed
+    spriteName: Bed
+    isGroup: 0
+    parentIndex: 22
+    spriteID: ebb52566f8e078340a858e227836d2d8
+    layerID: 261
+    mosaicPosition: {x: 732, y: 220}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Lamp
+    spriteName: Lamp
+    isGroup: 0
+    parentIndex: 22
+    spriteID: 38e392dd4f4b20644bf136aaeaae99d8
+    layerID: 260
+    mosaicPosition: {x: 268, y: 459}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Table
+    spriteName: Table
+    isGroup: 0
+    parentIndex: 22
+    spriteID: e2f8a0d756bdb3c4984672a15ac2c7c0
+    layerID: 259
+    mosaicPosition: {x: 365, y: 459}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Background
+    spriteName: Background
+    isGroup: 0
+    parentIndex: 22
+    spriteID: 315eb1c2e73c11548ad1e48012521340
+    layerID: 258
+    mosaicPosition: {x: 868, y: 76}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Toilet 3
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 3a1a554c73d8a5c49afce9350ba44bb0
-    layerID: 35
+    spriteID: 246e3dafd1386294796875c3f8ca4354
+    layerID: 238
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
@@ -2222,750 +2064,570 @@ ScriptedImporter:
   - name: Door
     spriteName: Door
     isGroup: 0
-    parentIndex: 28
-    spriteID: dbd275341b2967845b12f0d2355bee45
-    layerID: 34
-    mosaicPosition: {x: 500, y: 268}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Layer 4
-    spriteName: Layer 4
-    isGroup: 0
-    parentIndex: 28
-    spriteID: 66c3b85c6fe256a4995c5c7acf2e35d8
-    layerID: 33
-    mosaicPosition: {x: 405, y: 612}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Lamp
-    spriteName: Lamp
-    isGroup: 0
-    parentIndex: 28
-    spriteID: b966db0daef28344e8676f3a045dfc8f
-    layerID: 32
-    mosaicPosition: {x: 473, y: 796}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Table
-    spriteName: Table
-    isGroup: 0
-    parentIndex: 28
-    spriteID: 97f3c8b59fe09b948b588071e92d4c6a
-    layerID: 31
-    mosaicPosition: {x: 476, y: 336}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Background
-    spriteName: Background
-    isGroup: 0
-    parentIndex: 28
-    spriteID: 6b523d638f59a024bb9fe35b7c232437
-    layerID: 30
-    mosaicPosition: {x: 212, y: 952}
+    parentIndex: 29
+    spriteID: e7a7c8eb1c18ab84e916d9e24a743347
+    layerID: 237
+    mosaicPosition: {x: 4, y: 675}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Room
     spriteName: Room
     isGroup: 0
-    parentIndex: 28
-    spriteID: f1dda8dddc4d36e4bba4ddf08fca4bf5
-    layerID: 29
-    mosaicPosition: {x: 212, y: 408}
+    parentIndex: 29
+    spriteID: b2a92b3bc41f51d4c91edfda7474fcfd
+    layerID: 236
+    mosaicPosition: {x: 460, y: 148}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Room copy 2
-    spriteName: 
-    isGroup: 1
-    parentIndex: -1
-    spriteID: dc43739db7ffca04bb0d9e912f198f80
-    layerID: 27
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 1
-  - name: Door
-    spriteName: Door
+  - name: Layer 1 copy
+    spriteName: Layer 1 copy
     isGroup: 0
-    parentIndex: 35
-    spriteID: 6877821b8578a3e49a18ad3a123ae4d4
-    layerID: 26
-    mosaicPosition: {x: 476, y: 464}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Layer 4
-    spriteName: Layer 4
-    isGroup: 0
-    parentIndex: 35
-    spriteID: 6c53a5a20bde4474fad09cdc04e083d0
-    layerID: 25
-    mosaicPosition: {x: 405, y: 640}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Lamp
-    spriteName: Lamp
-    isGroup: 0
-    parentIndex: 35
-    spriteID: 0393e5573e4ab794d9f898f0f4b40e40
-    layerID: 24
-    mosaicPosition: {x: 492, y: 796}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Table
-    spriteName: Table
-    isGroup: 0
-    parentIndex: 35
-    spriteID: 6f1cb9f95cd88ad4692559c979f7bc1c
-    layerID: 23
-    mosaicPosition: {x: 476, y: 360}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Background
-    spriteName: Background
-    isGroup: 0
-    parentIndex: 35
-    spriteID: 7eec5865ff93e714fbeddcb409448757
-    layerID: 22
-    mosaicPosition: {x: 348, y: 336}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Room
-    spriteName: Room
-    isGroup: 0
-    parentIndex: 35
-    spriteID: 82e2f52ad03773c47ad1d27911d121ca
-    layerID: 21
-    mosaicPosition: {x: 212, y: 480}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Room copy
-    spriteName: 
-    isGroup: 1
-    parentIndex: -1
-    spriteID: f643d38375e7dda419ec38ebf468a530
-    layerID: 18
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 1
-  - name: Door
-    spriteName: Door
-    isGroup: 0
-    parentIndex: 42
-    spriteID: 763e6900e2192774ea9d897a7ff28200
-    layerID: 17
-    mosaicPosition: {x: 490, y: 464}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Layer 4
-    spriteName: Layer 4
-    isGroup: 0
-    parentIndex: 42
-    spriteID: f67c01ace9881034b8ad5b8b86e7a0b4
-    layerID: 16
-    mosaicPosition: {x: 405, y: 668}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Lamp
-    spriteName: Lamp
-    isGroup: 0
-    parentIndex: 42
-    spriteID: f908c9779553f754f8009d9987ab1577
-    layerID: 15
-    mosaicPosition: {x: 473, y: 832}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Table
-    spriteName: Table
-    isGroup: 0
-    parentIndex: 42
-    spriteID: e7df63035cbb3a746bc36ae912168ec0
-    layerID: 14
-    mosaicPosition: {x: 476, y: 400}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Background
-    spriteName: Background
-    isGroup: 0
-    parentIndex: 42
-    spriteID: 59852ba964f45e54d825a942e05b9b2c
-    layerID: 13
-    mosaicPosition: {x: 348, y: 400}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Room
-    spriteName: Room
-    isGroup: 0
-    parentIndex: 42
-    spriteID: 131c51cd9692e9540a82e89cb3b9155b
-    layerID: 12
-    mosaicPosition: {x: 212, y: 552}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Room
-    spriteName: 
-    isGroup: 1
-    parentIndex: -1
-    spriteID: 0187a213bb949904393b2a1089f9056a
-    layerID: 9
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 1
-  - name: Door
-    spriteName: Door
-    isGroup: 0
-    parentIndex: 49
-    spriteID: 1cdbb3e302d94ea44b22cd48110e9108
-    layerID: 8
-    mosaicPosition: {x: 458, y: 976}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Layer 4
-    spriteName: Layer 4
-    isGroup: 0
-    parentIndex: 49
-    spriteID: 77b3985bac154cc43b542b4a319bccf8
-    layerID: 7
-    mosaicPosition: {x: 405, y: 696}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Lamp
-    spriteName: Lamp
-    isGroup: 0
-    parentIndex: 49
-    spriteID: b46b7c7db9c7f7245a37e5c20ba8a324
-    layerID: 6
-    mosaicPosition: {x: 492, y: 832}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Table
-    spriteName: Table
-    isGroup: 0
-    parentIndex: 49
-    spriteID: 971e49f0e261ee044932629ef7312453
-    layerID: 5
-    mosaicPosition: {x: 476, y: 424}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Background
-    spriteName: Background
-    isGroup: 0
-    parentIndex: 49
-    spriteID: c46a107281f11e646952f92afc4745c4
-    layerID: 4
-    mosaicPosition: {x: 348, y: 464}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Room
-    spriteName: Room
-    isGroup: 0
-    parentIndex: 49
-    spriteID: 9b706c283aefce64bbcd65d560b806cc
-    layerID: 3
-    mosaicPosition: {x: 212, y: 624}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Stairs2
-    spriteName: 
-    isGroup: 1
-    parentIndex: -1
-    spriteID: cf17cd77a84a12e4ea1ffd1709bf506e
-    layerID: 129
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 1
-  - name: Room
-    spriteName: Room
-    isGroup: 0
-    parentIndex: 56
-    spriteID: 1957800b7c595454498bf26cc30b1681
-    layerID: 118
-    mosaicPosition: {x: 4, y: 344}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Layer 3
-    spriteName: Layer 3
-    isGroup: 0
-    parentIndex: 56
-    spriteID: d9e897e4bd60f574ab260817cccc5f6e
-    layerID: 126
-    mosaicPosition: {x: 140, y: 778}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Layer 4
-    spriteName: Layer 4
-    isGroup: 0
-    parentIndex: 56
-    spriteID: a3e8b3ddb17aa87459d2fabe554d56c2
-    layerID: 128
-    mosaicPosition: {x: 140, y: 850}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Stairs high
-    spriteName: Stairs high
-    isGroup: 0
-    parentIndex: 56
-    spriteID: 8e19628d347402d489621c160b1c8e44
-    layerID: 127
-    mosaicPosition: {x: 348, y: 968}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Stairs low
-    spriteName: Stairs low
-    isGroup: 0
-    parentIndex: 56
-    spriteID: b46a627effbda8d4fb66585ac14e5bbb
-    layerID: 125
-    mosaicPosition: {x: 140, y: 977}
+    parentIndex: 29
+    spriteID: 93b25dd6ca6b2814094a657ee7459a60
+    layerID: 234
+    mosaicPosition: {x: 986, y: 268}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Layer 1
     spriteName: Layer 1
     isGroup: 0
-    parentIndex: 56
-    spriteID: c2a72d6cc963dd449ae77c1b4f1e743d
-    layerID: 122
-    mosaicPosition: {x: 429, y: 268}
+    parentIndex: 29
+    spriteID: 3e7e31524d4a7ee4d938ea2a59b257ee
+    layerID: 233
+    mosaicPosition: {x: 4, y: 435}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Layer 2
-    spriteName: Layer 2
+  - name: Furnace side
+    spriteName: Furnace side
     isGroup: 0
-    parentIndex: 56
-    spriteID: 7c243cbcfcf2b6947aa057b6d18bbdd7
-    layerID: 124
-    mosaicPosition: {x: 140, y: 922}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Stairs high
-    spriteName: Stairs high
-    isGroup: 0
-    parentIndex: 56
-    spriteID: 4a1c98b5f671cb547a17891ac4568b84
-    layerID: 123
-    mosaicPosition: {x: 405, y: 904}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Stairs low
-    spriteName: Stairs low
-    isGroup: 0
-    parentIndex: 56
-    spriteID: 92b51ce8edd39244bb2db936988fe8e7
-    layerID: 121
-    mosaicPosition: {x: 405, y: 724}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Layer 5
-    spriteName: Layer 5
-    isGroup: 0
-    parentIndex: 56
-    spriteID: 2725579f293a330438a51a5d3d7b0411
-    layerID: 120
-    mosaicPosition: {x: 499, y: 868}
+    parentIndex: 29
+    spriteID: 73b95f475e080084f86985c3d498dd1d
+    layerID: 232
+    mosaicPosition: {x: 220, y: 435}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Background
     spriteName: Background
     isGroup: 0
-    parentIndex: 56
-    spriteID: e718ab940e545b747b6918556faad70c
-    layerID: 119
-    mosaicPosition: {x: 4, y: 713}
+    parentIndex: 29
+    spriteID: a127963de2db0994d886b1c31083fed1
+    layerID: 231
+    mosaicPosition: {x: 596, y: 148}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Stairs2 copy
+  - name: Kitchen 3
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 6df426195f2d8604ea33211da0fc0143
-    layerID: 142
+    spriteID: 9d95e4107bc658648a25e202906da010
+    layerID: 247
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
     isVisible: 1
+  - name: Door
+    spriteName: Door
+    isGroup: 0
+    parentIndex: 36
+    spriteID: 92ae5e896d20e614490ad610ad0159bf
+    layerID: 246
+    mosaicPosition: {x: 4, y: 719}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Room
     spriteName: Room
     isGroup: 0
-    parentIndex: 68
-    spriteID: dbb0f424915403348b31671c5f3053a7
-    layerID: 131
-    mosaicPosition: {x: 4, y: 420}
+    parentIndex: 36
+    spriteID: f2c296e33d3c22247bfa6dad9d2dfbd7
+    layerID: 245
+    mosaicPosition: {x: 732, y: 148}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Layer 3
-    spriteName: Layer 3
+  - name: Table
+    spriteName: Table
     isGroup: 0
-    parentIndex: 68
-    spriteID: b7aebb12bbfb5ba4e9721209d3fd3a7d
-    layerID: 139
-    mosaicPosition: {x: 348, y: 528}
+    parentIndex: 36
+    spriteID: d9049a08a0bf9b7448264f59621be508
+    layerID: 244
+    mosaicPosition: {x: 990, y: 340}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Layer 4
-    spriteName: Layer 4
+  - name: Furnace 2
+    spriteName: Furnace 2
     isGroup: 0
-    parentIndex: 68
-    spriteID: 3a1c48a67d6dd7244a948f66f431af1b
-    layerID: 141
-    mosaicPosition: {x: 348, y: 583}
+    parentIndex: 36
+    spriteID: cadf7678e7f87094b8ef5121e7d87f63
+    layerID: 243
+    mosaicPosition: {x: 1004, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Stairs high
-    spriteName: Stairs high
+  - name: 'Furnace '
+    spriteName: 'Furnace '
     isGroup: 0
-    parentIndex: 68
-    spriteID: 3b5dad0293c58e146b982d7393fa87da
-    layerID: 140
-    mosaicPosition: {x: 405, y: 940}
+    parentIndex: 36
+    spriteID: 7b863c73a8599ae4289107db67d5a39f
+    layerID: 242
+    mosaicPosition: {x: 1004, y: 76}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Stairs low
-    spriteName: Stairs low
+  - name: Furnace side
+    spriteName: Furnace side
     isGroup: 0
-    parentIndex: 68
-    spriteID: 3bd75adb0b397144aa2e4aac00e10da0
-    layerID: 138
-    mosaicPosition: {x: 405, y: 760}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Layer 1
-    spriteName: Layer 1
-    isGroup: 0
-    parentIndex: 68
-    spriteID: 0324b339239151a4d9d5a218323a248c
-    layerID: 135
-    mosaicPosition: {x: 348, y: 638}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Layer 2
-    spriteName: Layer 2
-    isGroup: 0
-    parentIndex: 68
-    spriteID: 6a2ad88e706613049a3977ccea9ec3a9
-    layerID: 137
-    mosaicPosition: {x: 348, y: 693}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Stairs high
-    spriteName: Stairs high
-    isGroup: 0
-    parentIndex: 68
-    spriteID: 17ad563501d4d44409d271b83268a8d3
-    layerID: 136
-    mosaicPosition: {x: 405, y: 976}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Stairs low
-    spriteName: Stairs low
-    isGroup: 0
-    parentIndex: 68
-    spriteID: 66117e1d560cc4e4dbae6191d4dc1bf3
-    layerID: 134
-    mosaicPosition: {x: 405, y: 796}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Layer 5
-    spriteName: Layer 5
-    isGroup: 0
-    parentIndex: 68
-    spriteID: 3624afb3e04bb4541ab4bf0259d3e5fc
-    layerID: 133
-    mosaicPosition: {x: 502, y: 360}
+    parentIndex: 36
+    spriteID: 2257fbf3f2756d94ab095a88ab299f5a
+    layerID: 241
+    mosaicPosition: {x: 144, y: 435}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Background
     spriteName: Background
     isGroup: 0
-    parentIndex: 68
-    spriteID: 5252ba706402cb84d8213ae433a4f9f6
-    layerID: 132
+    parentIndex: 36
+    spriteID: 8a38df645dce04247aeef2c917045ec6
+    layerID: 240
+    mosaicPosition: {x: 868, y: 148}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 'Kitchen '
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 41684ad85ccd8254fbc4eed77d87e19d
+    layerID: 256
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Door
+    spriteName: Door
+    isGroup: 0
+    parentIndex: 44
+    spriteID: fb11ae7bb54acf246a2b6f63266f13af
+    layerID: 255
+    mosaicPosition: {x: 4, y: 763}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Room
+    spriteName: Room
+    isGroup: 0
+    parentIndex: 44
+    spriteID: 70be396da4a83ee44a95ae63e1c6559f
+    layerID: 254
     mosaicPosition: {x: 4, y: 268}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Stairs2 copy 2
+  - name: Table
+    spriteName: Table
+    isGroup: 0
+    parentIndex: 44
+    spriteID: dc0133145af6ed8498467c1ebc1fecd7
+    layerID: 253
+    mosaicPosition: {x: 990, y: 364}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Furnace 2
+    spriteName: Furnace 2
+    isGroup: 0
+    parentIndex: 44
+    spriteID: fccfc8953af8da0419e30f557f92bfd0
+    layerID: 252
+    mosaicPosition: {x: 1004, y: 148}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 'Furnace '
+    spriteName: 'Furnace '
+    isGroup: 0
+    parentIndex: 44
+    spriteID: 35cbf98b0c406e0489913404e581f892
+    layerID: 251
+    mosaicPosition: {x: 196, y: 435}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Furnace side
+    spriteName: Furnace side
+    isGroup: 0
+    parentIndex: 44
+    spriteID: ab00ad11bc0acca41a74730df8e67192
+    layerID: 250
+    mosaicPosition: {x: 170, y: 435}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Background
+    spriteName: Background
+    isGroup: 0
+    parentIndex: 44
+    spriteID: 7b22c0e9a066a4f4fb3edb2474c68c58
+    layerID: 249
+    mosaicPosition: {x: 140, y: 268}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Toilet
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: eec8dee15eaedb84dacb0430071728ba
-    layerID: 156
+    spriteID: a4fc2a13f55e37c4d8fb39686abd731e
+    layerID: 228
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
     isVisible: 1
+  - name: Door
+    spriteName: Door
+    isGroup: 0
+    parentIndex: 52
+    spriteID: b200e6f90394c0544bf56b0aa66285fb
+    layerID: 227
+    mosaicPosition: {x: 4, y: 807}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Room
     spriteName: Room
     isGroup: 0
-    parentIndex: 80
-    spriteID: 5447bacf69a5ef4469f4a81d30e66762
-    layerID: 145
-    mosaicPosition: {x: 4, y: 496}
+    parentIndex: 52
+    spriteID: 4cfea967edbb02f478037c5a4de44857
+    layerID: 226
+    mosaicPosition: {x: 276, y: 268}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Layer 3
-    spriteName: Layer 3
+  - name: Layer 1 copy 2
+    spriteName: Layer 1 copy 2
     isGroup: 0
-    parentIndex: 80
-    spriteID: f526382f1da78524aa356d0fd969aa4e
-    layerID: 153
-    mosaicPosition: {x: 348, y: 748}
+    parentIndex: 52
+    spriteID: b92e95fd656c6264fbd648cf13a346fc
+    layerID: 225
+    mosaicPosition: {x: 39, y: 435}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Layer 4
-    spriteName: Layer 4
+  - name: Layer 1 copy
+    spriteName: Layer 1 copy
     isGroup: 0
-    parentIndex: 80
-    spriteID: 7deca4db7d27ac1469a04908aca86e63
-    layerID: 155
-    mosaicPosition: {x: 348, y: 803}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Stairs high
-    spriteName: Stairs high
-    isGroup: 0
-    parentIndex: 80
-    spriteID: 14e27209932f8d44bb39c9c73f833f18
-    layerID: 154
-    mosaicPosition: {x: 458, y: 904}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Stairs low
-    spriteName: Stairs low
-    isGroup: 0
-    parentIndex: 80
-    spriteID: b9f579be140a6d54abd69d696ebffe69
-    layerID: 152
-    mosaicPosition: {x: 405, y: 832}
+    parentIndex: 52
+    spriteID: 6bd2836933afc214fab53ddeaac05a72
+    layerID: 224
+    mosaicPosition: {x: 74, y: 435}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Layer 1
     spriteName: Layer 1
     isGroup: 0
-    parentIndex: 80
-    spriteID: 4caa18c3af00988418a9fcedfe8bc05e
-    layerID: 149
-    mosaicPosition: {x: 348, y: 858}
+    parentIndex: 52
+    spriteID: 74446ac515c6507469c5f987ab45f271
+    layerID: 223
+    mosaicPosition: {x: 109, y: 435}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Layer 2
-    spriteName: Layer 2
+  - name: Furnace side
+    spriteName: Furnace side
     isGroup: 0
-    parentIndex: 80
-    spriteID: 7a95514c3a9c1dd4fb9196a1982d6a10
-    layerID: 151
-    mosaicPosition: {x: 348, y: 913}
+    parentIndex: 52
+    spriteID: c2249a59d751b06448279b08def37c82
+    layerID: 222
+    mosaicPosition: {x: 244, y: 435}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Stairs high
-    spriteName: Stairs high
+  - name: Background
+    spriteName: Background
     isGroup: 0
-    parentIndex: 80
-    spriteID: c979348dde84c8d46b50d60a4b920d7d
-    layerID: 150
-    mosaicPosition: {x: 458, y: 940}
+    parentIndex: 52
+    spriteID: 202beb763632ef44eb6301604db3cc8a
+    layerID: 221
+    mosaicPosition: {x: 412, y: 268}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Stairs2 4
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: ea76e9ef886920a48a7953964d7db9a3
+    layerID: 219
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Floor active
+    spriteName: Floor active
+    isGroup: 0
+    parentIndex: 60
+    spriteID: ccc9adb988286ab45a58a5c8b62aba83
+    layerID: 218
+    mosaicPosition: {x: 430, y: 380}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Floor
+    spriteName: Floor
+    isGroup: 0
+    parentIndex: 60
+    spriteID: 2ec1ee8548edec042a35d7c16db0adb7
+    layerID: 217
+    mosaicPosition: {x: 268, y: 435}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Stairs2 3
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 7f1a2a797a6c88a46af56ed3b1d280a0
+    layerID: 211
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Floor active
+    spriteName: Floor active
+    isGroup: 0
+    parentIndex: 63
+    spriteID: 1311cdc5bab5734438aec667d1869798
+    layerID: 210
+    mosaicPosition: {x: 570, y: 380}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Floor
+    spriteName: Floor
+    isGroup: 0
+    parentIndex: 63
+    spriteID: e8f627dfcdabfef41afc4317cd16a6f9
+    layerID: 209
+    mosaicPosition: {x: 468, y: 435}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Handrail low
+    spriteName: Handrail low
+    isGroup: 0
+    parentIndex: 63
+    spriteID: 86c5b17a01d29254da92f146db7bc511
+    layerID: 208
+    mosaicPosition: {x: 4, y: 340}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Handrail high
+    spriteName: Handrail high
+    isGroup: 0
+    parentIndex: 63
+    spriteID: 98d8477df3cc9d642bb8af7e42c90102
+    layerID: 207
+    mosaicPosition: {x: 548, y: 268}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Stairs middle
+    spriteName: Stairs middle
+    isGroup: 0
+    parentIndex: 63
+    spriteID: f1a845d8a7bc58b49af203caa4cdfcdb
+    layerID: 295
+    mosaicPosition: {x: 460, y: 248}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: Stairs low
     spriteName: Stairs low
     isGroup: 0
-    parentIndex: 80
-    spriteID: 78b9e7aafcecc524fbc5edbf4d41c025
-    layerID: 148
-    mosaicPosition: {x: 405, y: 868}
+    parentIndex: 63
+    spriteID: c03c4410ffbf3c64ba9178bc00fb1b38
+    layerID: 294
+    mosaicPosition: {x: 868, y: 220}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Layer 5
-    spriteName: Layer 5
+  - name: Stairs high
+    spriteName: Stairs high
     isGroup: 0
-    parentIndex: 80
-    spriteID: 3ff1a04475574b4439e5af12392c43e5
-    layerID: 147
-    mosaicPosition: {x: 502, y: 424}
+    parentIndex: 63
+    spriteID: e8e1253aad214fd43b9ca297653b026f
+    layerID: 206
+    mosaicPosition: {x: 430, y: 340}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Background
-    spriteName: Background
-    isGroup: 0
-    parentIndex: 80
-    spriteID: a465fa95e232b9b45afb20847bf6a111
-    layerID: 146
-    mosaicPosition: {x: 4, y: 647}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Stairs2 copy 2
+  - name: Stairs2 2
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 987cbc3cb8b004640b338a15a04de9b2
-    layerID: 169
+    spriteID: 37ad476657a27664583309d36e180aa7
+    layerID: 185
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
     isVisible: 1
-  - name: Room
-    spriteName: Room
+  - name: Floor active
+    spriteName: Floor active
     isGroup: 0
-    parentIndex: 92
-    spriteID: 5a04e2a383ccf0842bfe7090de0648eb
-    layerID: 158
-    mosaicPosition: {x: 4, y: 572}
+    parentIndex: 71
+    spriteID: b86b5af4e95c1dc4d9ba0493d1f9cb3b
+    layerID: 184
+    mosaicPosition: {x: 710, y: 380}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Layer 4
-    spriteName: 
+  - name: Floor
+    spriteName: Floor
     isGroup: 0
-    parentIndex: 92
-    spriteID: b755d9b8e81ad7a4ab9da68ea2a97237
-    layerID: 168
-    mosaicPosition: {x: 0, y: 0}
+    parentIndex: 71
+    spriteID: 50ac9269796cdba4c9ff524da13133c5
+    layerID: 183
+    mosaicPosition: {x: 668, y: 435}
     flatten: 0
-    isImported: 0
-    isVisible: 0
-  - name: Stairs high
-    spriteName: 
+    isImported: 1
+    isVisible: 1
+  - name: Handrail low
+    spriteName: Handrail low
     isGroup: 0
-    parentIndex: 92
-    spriteID: 4699da8c90ed68b42be6ba745c9d9c46
-    layerID: 167
-    mosaicPosition: {x: 0, y: 0}
+    parentIndex: 71
+    spriteID: f7fc48d68909a5e4fb1f7ca55a56d1a4
+    layerID: 182
+    mosaicPosition: {x: 146, y: 340}
     flatten: 0
-    isImported: 0
-    isVisible: 0
-  - name: Layer 3
-    spriteName: 
+    isImported: 1
+    isVisible: 1
+  - name: Handrail high
+    spriteName: Handrail high
     isGroup: 0
-    parentIndex: 92
-    spriteID: 1d73e4fe3b6ff4c448a79adaea4dfe0f
-    layerID: 166
-    mosaicPosition: {x: 0, y: 0}
+    parentIndex: 71
+    spriteID: eee921ff73d3f934d9e2731378288b50
+    layerID: 181
+    mosaicPosition: {x: 694, y: 268}
     flatten: 0
-    isImported: 0
-    isVisible: 0
+    isImported: 1
+    isVisible: 1
+  - name: Stairs middle
+    spriteName: Stairs middle
+    isGroup: 0
+    parentIndex: 71
+    spriteID: 601553a0e05222f4f8aafc777204ada0
+    layerID: 293
+    mosaicPosition: {x: 500, y: 248}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Stairs low
-    spriteName: 
+    spriteName: Stairs low
     isGroup: 0
-    parentIndex: 92
-    spriteID: 6872860cea2b46c44a4c04416c00971b
-    layerID: 165
-    mosaicPosition: {x: 0, y: 0}
+    parentIndex: 71
+    spriteID: 1d00506aeb952734e82033af52db2ea0
+    layerID: 292
+    mosaicPosition: {x: 570, y: 340}
     flatten: 0
-    isImported: 0
-    isVisible: 0
-  - name: Layer 2
-    spriteName: 
-    isGroup: 0
-    parentIndex: 92
-    spriteID: 6453ffe6120ee554cbf7d7018e520e31
-    layerID: 164
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 0
+    isImported: 1
+    isVisible: 1
   - name: Stairs high
-    spriteName: 
+    spriteName: Stairs high
     isGroup: 0
-    parentIndex: 92
-    spriteID: 22508fa1b853e9b4eae3b7fc7da9c378
-    layerID: 163
+    parentIndex: 71
+    spriteID: fd4faadbc0adfd64b8a0bfde2a803865
+    layerID: 180
+    mosaicPosition: {x: 710, y: 340}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Stairs2 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 7fdd52e708e5c0747b5b4065e0d563e2
+    layerID: 177
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
-    isVisible: 0
-  - name: Layer 1
-    spriteName: 
+    isVisible: 1
+  - name: Floor active
+    spriteName: Floor active
     isGroup: 0
-    parentIndex: 92
-    spriteID: d19dd8e8821673e4abef5647244f18c3
-    layerID: 162
-    mosaicPosition: {x: 0, y: 0}
+    parentIndex: 79
+    spriteID: 51854749762a25d42ba96e4ccc07ae3f
+    layerID: 176
+    mosaicPosition: {x: 548, y: 328}
     flatten: 0
-    isImported: 0
-    isVisible: 0
+    isImported: 1
+    isVisible: 1
+  - name: Stairs middle
+    spriteName: Stairs middle
+    isGroup: 0
+    parentIndex: 79
+    spriteID: ff3808619f792ec4aa935bb3bf90f194
+    layerID: 291
+    mosaicPosition: {x: 596, y: 248}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Floor
+    spriteName: Floor
+    isGroup: 0
+    parentIndex: 79
+    spriteID: e8d463c3234bccf42ad1f08d07b831e4
+    layerID: 175
+    mosaicPosition: {x: 268, y: 447}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Handrail low
+    spriteName: Handrail low
+    isGroup: 0
+    parentIndex: 79
+    spriteID: c5cea7c42c13a0c439985c1e4fb123e8
+    layerID: 174
+    mosaicPosition: {x: 288, y: 340}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Handrail high
+    spriteName: Handrail high
+    isGroup: 0
+    parentIndex: 79
+    spriteID: 84a824a6951218a459dc3411c4c407b5
+    layerID: 173
+    mosaicPosition: {x: 840, y: 268}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Stairs high
+    spriteName: Stairs high
+    isGroup: 0
+    parentIndex: 79
+    spriteID: 2dba6ca245ac82445bd6087cc606c496
+    layerID: 172
+    mosaicPosition: {x: 850, y: 340}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Stairs low
-    spriteName: 
+    spriteName: Stairs low
     isGroup: 0
-    parentIndex: 92
-    spriteID: b9ffbc313cb95f84d80e0b021bdb5dfb
-    layerID: 161
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 0
-  - name: Layer 5
-    spriteName: 
-    isGroup: 0
-    parentIndex: 92
-    spriteID: 3d5f4a4e725deb443ba62c8f115866f4
-    layerID: 160
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 0
-  - name: Background
-    spriteName: Background
-    isGroup: 0
-    parentIndex: 92
-    spriteID: 479113eaa4a8e7246b431a45a21cf59a
-    layerID: 159
-    mosaicPosition: {x: 212, y: 268}
+    parentIndex: 79
+    spriteID: 3b06e93898fefd54190c2523210d591b
+    layerID: 171
+    mosaicPosition: {x: 4, y: 395}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -2973,7 +2635,7 @@ ScriptedImporter:
     spriteName: Background
     isGroup: 0
     parentIndex: -1
-    spriteID: 354371ec362fbcb44bbcee61485fefca
+    spriteID: 799f0dcbb729bbd4f80159ee8d1ac5d8
     layerID: 1
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
