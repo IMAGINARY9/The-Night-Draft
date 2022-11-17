@@ -15,24 +15,22 @@ namespace Assets.Scripts
         [SerializeField] private float _velPower; 
         [SerializeField] private float _frictionAmount;
         private Rigidbody2D _rb;
+        public CapsuleCollider2D Col { get; private set; }
         //private float _speed;
         private Vector2 _dir;
         private float _gravity;
         public float Movement { get; private set; }
         public bool IsRight { get; private set; }
-
-        int _playerLayer, _floorLayer, _stairsHighLayer, _stairsLowLayer;
+        public float DirY => _dir.y;
 
         private void Start()
         {
+            Col = GetComponent<CapsuleCollider2D>();
             _rb = GetComponent<Rigidbody2D>();
             //_speed = _maxSpeed;
             IsRight = true;
             _gravity = _rb.gravityScale;
-            _playerLayer = LayerMask.NameToLayer("Player");
-            _floorLayer = LayerMask.NameToLayer("Floor");
-            _stairsHighLayer = LayerMask.NameToLayer("Stairs High");
-            _stairsLowLayer = LayerMask.NameToLayer("Stairs Low");
+            
         }
 
         public void Move(Vector2 dir)
@@ -51,70 +49,7 @@ namespace Assets.Scripts
             else
                 _rb.gravityScale = _gravity;
         }
-        private void StairsState()//////
-        {
-            var place = _stairsCheck.Collider?.tag;
-            print(place);
-
-            if (place == "StairsFront")
-            {
-                if (_dir.y == 0)
-                {
-                    Physics2D.IgnoreLayerCollision(_playerLayer, _floorLayer, false);
-                    Physics2D.IgnoreLayerCollision(_playerLayer, _stairsLowLayer, true);
-                    Physics2D.IgnoreLayerCollision(_playerLayer, _stairsHighLayer, true);
-                }
-                else if (_dir.y > 0)
-                {
-                    Physics2D.IgnoreLayerCollision(_playerLayer, _floorLayer, false);
-                    Physics2D.IgnoreLayerCollision(_playerLayer, _stairsLowLayer, false);
-                    Physics2D.IgnoreLayerCollision(_playerLayer, _stairsHighLayer, true);
-                }
-                else if (_dir.y < 0)
-                {
-                    Physics2D.IgnoreLayerCollision(_playerLayer, _floorLayer, true);
-                    Physics2D.IgnoreLayerCollision(_playerLayer, _stairsLowLayer, true);
-                    Physics2D.IgnoreLayerCollision(_playerLayer, _stairsHighLayer, false);
-                }
-
-            }
-            else if (place == "StairsLow")
-            {
-                Physics2D.IgnoreLayerCollision(_playerLayer, _floorLayer, false);
-                Physics2D.IgnoreLayerCollision(_playerLayer, _stairsLowLayer, false);
-                Physics2D.IgnoreLayerCollision(_playerLayer, _stairsHighLayer, true);
-            }
-            else if (place == "StairsHigh")
-            {
-                Physics2D.IgnoreLayerCollision(_playerLayer, _floorLayer, true);
-                Physics2D.IgnoreLayerCollision(_playerLayer, _stairsLowLayer, false);
-                Physics2D.IgnoreLayerCollision(_playerLayer, _stairsHighLayer, false);
-            }
-            else if (place == "StairsMiddle")
-            {
-                if (_dir.y == 0)
-                {
-                    Physics2D.IgnoreLayerCollision(_playerLayer, _floorLayer, false);
-                    Physics2D.IgnoreLayerCollision(_playerLayer, _stairsLowLayer, false);
-                    Physics2D.IgnoreLayerCollision(_playerLayer, _stairsHighLayer, true);
-                }
-                else if (_dir.y > 0)
-                {
-                    Physics2D.IgnoreLayerCollision(_playerLayer, _floorLayer, true);
-                    Physics2D.IgnoreLayerCollision(_playerLayer, _stairsLowLayer, false);
-                    Physics2D.IgnoreLayerCollision(_playerLayer, _stairsHighLayer, false);
-                }
-                else if (_dir.y < 0)
-                {
-                    Physics2D.IgnoreLayerCollision(_playerLayer, _floorLayer, false);
-                    Physics2D.IgnoreLayerCollision(_playerLayer, _stairsLowLayer, false);
-                    Physics2D.IgnoreLayerCollision(_playerLayer, _stairsHighLayer, true);
-                }
-            }
-        }
         
-
-
         private void Run()
         {
             float targetSpeed = _dir.x * _speed;
