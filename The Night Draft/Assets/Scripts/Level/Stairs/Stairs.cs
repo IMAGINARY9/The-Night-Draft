@@ -7,7 +7,9 @@ namespace Assets.Scripts
     {
         [SerializeField] private PlayerMove _player;
         [SerializeField] private PolygonCollider2D[] _floor, _stairsLow, _stairsHigh;
-        [SerializeField] private BoxCollider2D[] _activeFloor, _stairsMiddle/*, //_activeCeil*/;
+        [SerializeField] private BoxCollider2D[] _activeFloor, _stairsMiddle;
+        [SerializeField] private SpriteRenderer[] _handRailsLow;
+
         private State _currentState;
         private enum State
         {
@@ -22,20 +24,25 @@ namespace Assets.Scripts
             _currentState = State.Is_floor;
         }
 
-
-        private void SetActive(BoxCollider2D[] mass, bool s)
-        {
-            foreach (var item in mass)
-                item.enabled = s;
-        }
-        private void SetActive(PolygonCollider2D[] mass, bool s)
+        private void SetActive(Collider2D[] mass, bool s)
         {
             foreach (var item in mass)
                 item.enabled = s;
         }
 
+        private void ChangeLayer(SpriteRenderer[] sps, int layer)
+        {
+            foreach (var sprite in sps)
+                sprite.sortingOrder = layer;
+        }
+        private bool Check(Collider2D[] mass)
+        {
+            foreach (var item in mass)
+                if (item.IsTouching(_player.Col))
+                    return true;
 
-
+            return false;
+        }
 
         private void Go()
         {
@@ -46,31 +53,37 @@ namespace Assets.Scripts
                     SetActive(_stairsMiddle, false);
                     SetActive(_stairsLow, false);
                     SetActive(_activeFloor, true);
+                    ChangeLayer(_handRailsLow, -2);
                     break;
                 case State.Is_stairsLow:
                     SetActive(_stairsHigh, false);
                     SetActive(_stairsMiddle, true);
                     SetActive(_stairsLow, true);
                     SetActive(_activeFloor, false);
+                    ChangeLayer(_handRailsLow, 2);
                     break;
                 case State.Is_stairsMiddle:
                     SetActive(_activeFloor, false);
                     SetActive(_stairsMiddle, true);
                     SetActive(_stairsLow, true);
                     SetActive(_stairsHigh, false);
+                    ChangeLayer(_handRailsLow, 2);
                     break;
                 case State.Is_stairsHigh:
                     SetActive(_activeFloor, false);
                     SetActive(_stairsMiddle, true);
                     SetActive(_stairsLow, false);
                     SetActive(_stairsHigh, true);
+                    ChangeLayer(_handRailsLow, 2);
                     break;
                 case State.Is_activeFloor:
                     SetActive(_activeFloor, true);
                     SetActive(_stairsMiddle, false);
                     SetActive(_stairsLow, false);
                     SetActive(_stairsHigh, false);
+                    ChangeLayer(_handRailsLow, -2);
                     break;
+                    
             }
         }
         private void GoUp()
@@ -82,30 +95,35 @@ namespace Assets.Scripts
                     SetActive(_stairsMiddle, true);
                     SetActive(_stairsLow, true);
                     SetActive(_stairsHigh, false);
+                    ChangeLayer(_handRailsLow, 2);
                     break;
                 case State.Is_stairsLow:
                     SetActive(_activeFloor, false);
                     SetActive(_stairsMiddle, true);
                     SetActive(_stairsLow, true);
                     SetActive(_stairsHigh, false);
+                    ChangeLayer(_handRailsLow, 2);
                     break;
                 case State.Is_stairsMiddle:
                     SetActive(_activeFloor, false);
                     SetActive(_stairsMiddle, true);
                     SetActive(_stairsLow, true);
                     SetActive(_stairsHigh, true);
+                    ChangeLayer(_handRailsLow, 2);
                     break;
                 case State.Is_stairsHigh:
                     SetActive(_activeFloor, false);
                     SetActive(_stairsMiddle, true);
                     SetActive(_stairsLow, false);
                     SetActive(_stairsHigh, true);
+                    ChangeLayer(_handRailsLow, 2);
                     break;
                 case State.Is_activeFloor:
                     SetActive(_activeFloor, true);
                     SetActive(_stairsMiddle, false);
                     SetActive(_stairsLow, false);
                     SetActive(_stairsHigh, false);
+                    ChangeLayer(_handRailsLow, -2);
                     break;
             }
         }
@@ -118,30 +136,35 @@ namespace Assets.Scripts
                     SetActive(_stairsMiddle, true);
                     SetActive(_stairsLow, false);
                     SetActive(_stairsHigh, true);
+                    ChangeLayer(_handRailsLow, -2);
                     break;
                 case State.Is_stairsLow:
                     SetActive(_activeFloor, false);
                     SetActive(_stairsMiddle, true);
                     SetActive(_stairsLow, true);
                     SetActive(_stairsHigh, false);
+                    ChangeLayer(_handRailsLow, 2);
                     break;
                 case State.Is_stairsMiddle:
                     SetActive(_activeFloor, false);
                     SetActive(_stairsMiddle, true);
                     SetActive(_stairsLow, true);
                     SetActive(_stairsHigh, false);
+                    ChangeLayer(_handRailsLow, 2);
                     break;
                 case State.Is_stairsHigh:
                     SetActive(_activeFloor, false);
                     SetActive(_stairsMiddle, true);
                     SetActive(_stairsLow, false);
                     SetActive(_stairsHigh, true);
+                    ChangeLayer(_handRailsLow, 2);
                     break;
                 case State.Is_activeFloor:
                     SetActive(_activeFloor, true);
                     SetActive(_stairsMiddle, false);
                     SetActive(_stairsLow, false);
                     SetActive(_stairsHigh, false);
+                    ChangeLayer(_handRailsLow, -2);
                     break;
             }
         }
@@ -166,26 +189,7 @@ namespace Assets.Scripts
                 _currentState = State.Is_stairsHigh;
             else if (Check(_activeFloor))
                 _currentState = State.Is_activeFloor;
-
         }
-
-        private bool Check(PolygonCollider2D[] mass)
-        {
-            foreach (var item in mass)
-                if (item.IsTouching(_player.Col))
-                    return true;
-
-            return false;
-        }
-        private bool Check(BoxCollider2D[] mass)
-        {
-            foreach (var item in mass)
-                if (item.IsTouching(_player.Col))
-                    return true;
-
-            return false;
-        }
-        
 
     }
 }
