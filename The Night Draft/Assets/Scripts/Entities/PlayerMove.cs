@@ -7,7 +7,6 @@ namespace Assets.Scripts
     {
         [SerializeField] private Overlap _stairsCheck;
 
-
         [Header("Run")]
         [SerializeField] private int _speed; 
         [SerializeField] private int _acceleration; 
@@ -15,27 +14,23 @@ namespace Assets.Scripts
         [SerializeField] private float _velPower; 
         [SerializeField] private float _frictionAmount;
         private Rigidbody2D _rb;
-        public CapsuleCollider2D Col { get; private set; }
         //private float _speed;
-        private Vector2 _dir;
+        private float _horizontal;
         private float _gravity;
         public float Movement { get; private set; }
         public bool IsRight { get; private set; }
-        public float DirY => _dir.y;
 
         private void Start()
         {
-            Col = GetComponent<CapsuleCollider2D>();
             _rb = GetComponent<Rigidbody2D>();
             //_speed = _maxSpeed;
             IsRight = true;
             _gravity = _rb.gravityScale;
-            
         }
 
-        public void Move(Vector2 dir)
+        public void Move(float dir) 
         {
-            _dir = dir;
+            _horizontal = dir;
             Rotate();
             Friction();
             Run();
@@ -44,7 +39,7 @@ namespace Assets.Scripts
         }
         private void CheckStairs()
         {
-            if (_stairsCheck.IsCollided && _dir.x == 0)
+            if (_stairsCheck.IsCollided && _horizontal == 0)
                 _rb.gravityScale = 0;
             else
                 _rb.gravityScale = _gravity;
@@ -52,7 +47,7 @@ namespace Assets.Scripts
         
         private void Run()
         {
-            float targetSpeed = _dir.x * _speed;
+            float targetSpeed = _horizontal * _speed;
             float speedDif = targetSpeed - _rb.velocity.x;
             float accelRate = (Mathf.Abs(targetSpeed) > 0.01f) ? _acceleration : _decceleration;
             Movement = Mathf.Pow(Mathf.Abs(speedDif) * accelRate, _velPower) * Mathf.Sign(speedDif);
@@ -68,7 +63,7 @@ namespace Assets.Scripts
         void Rotate()
         {
 
-            if ((_dir.x > 0 && !IsRight) || (_dir.x < 0 && IsRight))
+            if ((_horizontal > 0 && !IsRight) || (_horizontal < 0 && IsRight))
                 Flip();
 
             void Flip()

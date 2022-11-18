@@ -8,7 +8,7 @@ namespace Assets.Scripts
 {
     public class StairsBehaviour : MonoBehaviour, IStairsStateSwitcher
     {
-        [SerializeField] private PlayerMove _player;
+        [SerializeField] private Player _player;
         [SerializeField] private PolygonCollider2D[] _floor, _stairsLow, _stairsHigh;
         [SerializeField] private BoxCollider2D[] _activeFloor, _stairsMiddle;
         [SerializeField] private SpriteRenderer[] _handRailsLow;
@@ -46,13 +46,13 @@ namespace Assets.Scripts
             return false;
         }
 
-        void Update()
+        void Update()//
         {
-            if (_player.DirY == 0)
+            if (_player.Vertical == 0)
                 Overpass();
-            else if (_player.DirY > 0)
+            else if (_player.Vertical > 0)
                 GoUp();
-            else if (_player.DirY < 0)
+            else if (_player.Vertical < 0)
                 GoDown();
 
             if (Check(_floor))
