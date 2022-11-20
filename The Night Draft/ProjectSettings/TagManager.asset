@@ -8,6 +8,7 @@ TagManager:
   - StairsHigh
   - StairsMiddle
   - StairsFront
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -15,9 +16,9 @@ TagManager:
   - Player
   - Water
   - UI
-  - Floor
-  - Stairs High
-  - Stairs Low
+  - 'Stairs '
+  - 
+  - 
   - 
   - 
   - 

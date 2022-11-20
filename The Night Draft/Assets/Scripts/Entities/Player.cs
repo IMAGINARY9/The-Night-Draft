@@ -3,11 +3,12 @@ using UnityEngine;
 
 namespace Assets.Scripts
 {
-    public class Player : Unit
+    public class Player : Unit, IBonusCollector
     {
         //[SerializeField] Joystick moveInput;
         [SerializeField] private PlayerMove _move;
         [SerializeField] private PlayerAnimator _anim;
+        [SerializeField] private PlayerAttack _attack;
         Vector2 _dir;
         public float Vertical => _dir.y;
         public CapsuleCollider2D Col { get; private set; }
@@ -17,9 +18,21 @@ namespace Assets.Scripts
             Col = GetComponent<CapsuleCollider2D>();
         }
 
+        private void Update()
+        {
+            if (UnityEngine.Input.GetKey(KeyCode.Space))
+                _attack.Attack();
+        }
+
         private void FixedUpdate()
         {
             Input();
+
+            //if (UnityEngine.Input.GetKeyDown(KeyCode.Space))
+            //{
+            //    _attack.Attack();
+            //}    
+
 
             var x = Mathf.Abs(_dir.x);
             if (x >= 0.01f)
