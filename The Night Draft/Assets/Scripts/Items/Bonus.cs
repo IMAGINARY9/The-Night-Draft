@@ -7,7 +7,7 @@ namespace Assets.Scripts
     public class Bonus : MonoBehaviour
     {
         public static event Action<Vector2> BonusCollected; //particles
-
+        
         protected virtual void OnCollected(GameObject collector) { }
 
         private void OnTriggerEnter2D(Collider2D col)
