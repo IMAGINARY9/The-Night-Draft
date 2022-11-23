@@ -14,12 +14,14 @@ namespace Assets.Scripts
             set => _weapon = value; 
         }
 
+        
         public Transform GetWeaponHolder() => _weaponHolder;
 
         public void Attack()
         {
             _weapon.Use();
         }
+
 
     }
 }

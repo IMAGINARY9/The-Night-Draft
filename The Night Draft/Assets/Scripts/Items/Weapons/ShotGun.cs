@@ -14,7 +14,6 @@ namespace Assets.Scripts
             base.OnUse();
             for (int i = 0; i < _bulletCount; i++)
             {
-                print(QuaternionCalc(i));
                 Instantiate(bullet, QuaternionCalc(i).Item1,
                     shootPoint.rotation * QuaternionCalc(i).Item2);
             }

@@ -8,9 +8,9 @@ namespace Assets.Scripts
         [SerializeField] protected Bullet bullet;
         [SerializeField] protected Transform shootPoint;
         [SerializeField] private float _angle;
+        [SerializeField] private float _recoil;
         [SerializeField] private float _minBulletDirectionModifier;
         [SerializeField] private float _maxBulletDirectionModifier;
-
 
         protected (Vector2, Quaternion) QuaternionCalc(float i)
         {
@@ -27,9 +27,9 @@ namespace Assets.Scripts
         protected override void OnUse()
         {
             base.OnUse();
+            CameraShake.Shake(0.05f, _recoil);
             var offset = Random.Range(0f, 1f);
             Instantiate(bullet, QuaternionCalc(offset).Item1, shootPoint.rotation * QuaternionCalc(offset).Item2);
         }
-
     }
 }

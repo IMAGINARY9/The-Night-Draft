@@ -5,7 +5,8 @@ namespace Assets.Scripts
 {
     public class WeaponBonus : Bonus
     {
-        [SerializeField] private Weapon weapon;
+        [SerializeField] private Weapon _weapon;
+        [SerializeField] private int _ammo;
 
         protected override void OnCollected(GameObject collector)
         {
@@ -14,8 +15,8 @@ namespace Assets.Scripts
             WeaponComponent currentWeapon = collector.GetComponent<WeaponComponent>();
             currentWeapon?.Deactivate();
             WeaponComponent newWeapon = collector.AddComponent<WeaponComponent>();
-            newWeapon.SetWeapon(weapon);
-            //newWeapon.Activate();
+            newWeapon.SetWeapon(_weapon, _ammo);
+            //newWeapon.Activate(_ammo);
 
         }
 

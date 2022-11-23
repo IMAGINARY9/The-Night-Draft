@@ -7,7 +7,9 @@ namespace Assets.Scripts
     public abstract class Weapon : MonoBehaviour
     {
         [SerializeField] private float rechargeTime;
+        public int Ammo { get; set; }
         //[SerializeField] protected AudioSource useSound;
+        public Action Over;
 
         private bool _canUse;
 
@@ -28,7 +30,10 @@ namespace Assets.Scripts
                 _canUse = true;
             }
         }
-        
-        protected virtual void OnUse() { } // => useSound?.Play();
+        protected virtual void OnUse() 
+        {
+            if (--Ammo <= 0)
+                Over?.Invoke();
+        } // => useSound?.Play();
     }
 }
