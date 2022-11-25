@@ -7,6 +7,8 @@ namespace Assets.Scripts
     public abstract class Weapon : MonoBehaviour
     {
         [SerializeField] private float rechargeTime;
+        [SerializeField] private WeaponBonus _reserv;
+        public WeaponBonus Reserv => _reserv;
         public int Ammo { get; set; }
         //[SerializeField] protected AudioSource useSound;
         public Action Over;

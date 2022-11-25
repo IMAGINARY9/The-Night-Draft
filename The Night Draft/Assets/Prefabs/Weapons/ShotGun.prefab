@@ -189,6 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rechargeTime: 1.5
+  _reserv: {fileID: 1228517683329471908, guid: bc89bef83a86d5040902f744376fbb3a, type: 3}
   bullet: {fileID: 2026678642563158615, guid: 231328025e1386240b52dcc0ffab26df, type: 3}
   shootPoint: {fileID: 6829839773779131235}
   _angle: 15

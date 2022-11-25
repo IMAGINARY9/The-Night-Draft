@@ -7,6 +7,7 @@ namespace Assets.Scripts
     {
         [SerializeField] private Weapon _weapon;
         [SerializeField] private int _ammo;
+        public void SetAmmo(int count) => _ammo = count;
 
         protected override void OnCollected(GameObject collector)
         {
@@ -16,7 +17,6 @@ namespace Assets.Scripts
             currentWeapon?.Deactivate();
             WeaponComponent newWeapon = collector.AddComponent<WeaponComponent>();
             newWeapon.SetWeapon(_weapon, _ammo);
-            //newWeapon.Activate(_ammo);
 
         }
 
