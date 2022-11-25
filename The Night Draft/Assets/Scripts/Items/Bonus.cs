@@ -10,13 +10,15 @@ namespace Assets.Scripts
         
         protected virtual void OnCollected(GameObject collector) { }
 
-        private void OnTriggerEnter2D(Collider2D col)
+        private void OnTriggerStay2D(Collider2D col)
         {
             if(col.TryGetComponent<IBonusCollector>(out var collector))
             {
+                if (!collector.ReadyToTake) return;
                 OnCollected(col.gameObject);
                 BonusCollected?.Invoke(transform.position);
                 Destroy(gameObject);
+                collector.ReadyToTake = false;
             }
         }
 

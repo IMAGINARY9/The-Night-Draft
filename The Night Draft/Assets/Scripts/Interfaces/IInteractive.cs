@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Assets.Scripts
 {
-    public interface IBonusCollector 
+    public interface IInteractive
     {
-        public bool ReadyToTake { get; set; }
+        public bool Used { get; set; }
+        public void Use();
     }
-
 }

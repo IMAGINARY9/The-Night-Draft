@@ -9,9 +9,11 @@ namespace Assets.Scripts
         [SerializeField] private PlayerMove _move;
         [SerializeField] private PlayerAnimator _anim;
         [SerializeField] private PlayerAttack _attack;
+        [SerializeField] private Overlap _objectCheck;
         Vector2 _dir;
         public float Vertical => _dir.y;
         public CapsuleCollider2D Col { get; private set; }
+        public bool ReadyToTake { get; set; }
 
         private void Start()
         {
@@ -20,19 +22,22 @@ namespace Assets.Scripts
 
         private void Update()
         {
-            if (UnityEngine.Input.GetKey(KeyCode.Space))
+            if (Input.GetKey(KeyCode.Space))
                 _attack.Attack();
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                var obj = _objectCheck.Collider;
+                if(obj != null)
+                    if (obj.TryGetComponent<IInteractive>(out var foundObject))
+                        foundObject.Use();
+
+                StartCoroutine(TakingRoutine());
+            }
         }
 
         private void FixedUpdate()
         {
-            Input();
-
-            //if (UnityEngine.Input.GetKeyDown(KeyCode.Space))
-            //{
-            //    _attack.Attack();
-            //}    
-
+            MoveInput();
 
             var x = Mathf.Abs(_dir.x);
             if (x >= 0.01f)
@@ -40,18 +45,25 @@ namespace Assets.Scripts
             else
                 _anim.Idle();
         }
-        private void Input()
+        private void MoveInput()
         {
 #if UNITY_ANDROID
             moveInput.x = h; moveInput.y = v;
 #else
-            _dir.x = UnityEngine.Input.GetAxis("Horizontal");
-            _dir.y = UnityEngine.Input.GetAxis("Vertical");
+            _dir.x = Input.GetAxis("Horizontal");
+            _dir.y = Input.GetAxis("Vertical");
 #endif
             //if(_dir != Vector2.zero)
                 _move.Move(_dir.x);
+
         }
 
+        IEnumerator TakingRoutine()
+        {
+            ReadyToTake = true;
+            yield return new WaitForSeconds(0.5f);
+            ReadyToTake = false;
+        }
 
     }
 }
