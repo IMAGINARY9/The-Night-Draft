@@ -26,12 +26,14 @@ namespace Assets.Scripts
                 _attack.Attack();
             if (Input.GetKeyDown(KeyCode.E))
             {
+                StartCoroutine(TakingRoutine());
+
+
                 var obj = _objectCheck.Collider;
                 if(obj != null)
                     if (obj.TryGetComponent<IInteractive>(out var foundObject))
                         foundObject.Use();
 
-                StartCoroutine(TakingRoutine());
             }
         }
 
@@ -61,7 +63,7 @@ namespace Assets.Scripts
         IEnumerator TakingRoutine()
         {
             ReadyToTake = true;
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForFixedUpdate();
             ReadyToTake = false;
         }
 

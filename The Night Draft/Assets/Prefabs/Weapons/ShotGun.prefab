@@ -193,6 +193,6 @@ MonoBehaviour:
   shootPoint: {fileID: 6829839773779131235}
   _angle: 15
   _recoil: 0.5
-  _minBulletDirectionModifier: 0.15
-  _maxBulletDirectionModifier: 0.35
+  _minBulletDirectionModifier: -0.25
+  _maxBulletDirectionModifier: 0.15
   _bulletCount: 5

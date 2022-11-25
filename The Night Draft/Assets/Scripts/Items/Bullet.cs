@@ -17,9 +17,9 @@ namespace Assets.Scripts
         }
         //void OnDestroy() => LevelManager.Restart -= OnRestart;
 
-        private void OnTriggerEnter2D(Collider2D col)
+        private void OnCollisionEnter2D(Collision2D col)
         {
-            if (col.CompareTag(tag)) return;
+            if (col.collider.CompareTag(tag)) return;
             Destroy(gameObject);
             //damage
         }
