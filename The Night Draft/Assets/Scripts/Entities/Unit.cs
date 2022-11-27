@@ -6,7 +6,6 @@ namespace Assets.Scripts
 {
     public class Unit : MonoBehaviour, IDamageable
     {
-
         [SerializeField] private int _hp;
 
         public int HP { get; private set; }

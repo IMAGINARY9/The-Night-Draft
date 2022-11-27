@@ -8,20 +8,21 @@ namespace Assets.Scripts
     {
         [SerializeField] private float speed;
         [SerializeField] private float lifeTime;
+        public int Damage { get; set; }
 
         void Start()
         {
             GetComponent<Rigidbody2D>().velocity = transform.right * speed;
             Destroy(gameObject, lifeTime);
-            //LevelManager.Restart += OnRestart;
         }
-        //void OnDestroy() => LevelManager.Restart -= OnRestart;
 
         private void OnCollisionEnter2D(Collision2D col)
         {
             if (col.collider.CompareTag(tag)) return;
             Destroy(gameObject);
-            //damage
+
+            if(col.collider.TryGetComponent<IWeaponVisitor>(out var visitor))
+                visitor.Visit(this);
         }
     }
 }

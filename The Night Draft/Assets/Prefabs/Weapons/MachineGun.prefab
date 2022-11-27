@@ -99,14 +99,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 212b5db2795ab8645a69d39f775e7c63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rechargeTime: 0.1
+  damage: 4
+  _rechargeTime: 0.1
   _reserv: {fileID: 4432684949373863515, guid: 16c94f145b51b8a45a2b4f603968f7c2, type: 3}
   bullet: {fileID: 2026678642563158615, guid: 231328025e1386240b52dcc0ffab26df, type: 3}
   shootPoint: {fileID: 4778995334937611409}
-  _angle: 5
-  _recoil: 0.3
-  _minBulletDirectionModifier: -1.5
-  _maxBulletDirectionModifier: 1.5
+  stats: {fileID: 11400000, guid: 0322a3d59a938604eb88fafd3cd2965a, type: 2}
 --- !u!1 &5084407627022128677
 GameObject:
   m_ObjectHideFlags: 0

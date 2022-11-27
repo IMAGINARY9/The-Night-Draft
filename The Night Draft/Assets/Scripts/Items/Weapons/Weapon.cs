@@ -7,7 +7,8 @@ namespace Assets.Scripts
     public abstract class Weapon : MonoBehaviour
     {
         public Action<int> AmmoChanged;
-        [SerializeField] private float rechargeTime;
+        [SerializeField] protected int damage;
+        [SerializeField] private float _rechargeTime;
         [SerializeField] private WeaponBonus _reserv;
         public WeaponBonus Reserv => _reserv;
         public int Ammo { get; set; }
@@ -29,7 +30,7 @@ namespace Assets.Scripts
             IEnumerator UsageManagingRoutine()
             {
                 _canUse = false;
-                yield return new WaitForSeconds(rechargeTime);
+                yield return new WaitForSeconds(_rechargeTime);
                 _canUse = true;
             }
         }
