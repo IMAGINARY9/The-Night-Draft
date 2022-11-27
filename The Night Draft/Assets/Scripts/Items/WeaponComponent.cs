@@ -7,10 +7,11 @@ namespace Assets.Scripts
     public class WeaponComponent : BonusComponent
     {
         public static Action<WeaponBonus, Vector2, int> WeaponEjection;
+        public static Action<Sprite> WeaponUIUpdate;
         private Weapon _defaultWeapon;
         private Weapon _thisWeapon;
         private IWeaponUser _user;
-        public void SetWeapon(Weapon weapon, int ammo)
+        public void SetWeapon(Sprite weaponUI, Weapon weapon, int ammo)
         {
             _user = GetComponent<IWeaponUser>();
             _defaultWeapon = _user.CurrentWeapon;
@@ -19,6 +20,7 @@ namespace Assets.Scripts
             _thisWeapon.Ammo = ammo;
             _thisWeapon.Over += OnBonusOver; 
             _user.CurrentWeapon = _thisWeapon;
+            WeaponUIUpdate?.Invoke(weaponUI);
         }
         protected override void OnBonusOver()
         {
@@ -27,25 +29,13 @@ namespace Assets.Scripts
             Destroy(_thisWeapon.gameObject);
             _defaultWeapon.gameObject.SetActive(true);
             _user.CurrentWeapon = _defaultWeapon;
+            WeaponUIUpdate?.Invoke(null);
             Destroy(this);
         }
-
-        //public override void Deactivate()
-        //{
-        //    if(thisWeapon.Ammo > 0)
-        //        //DropCurrentWeapon?.Invoke(transform.position)
-        //        Instantiate(thisWeapon, transform.position, Quaternion.identity, LevelManager.Drop).Ammo = thisWeapon.Ammo;
-        //    base.Deactivate();
-        //}
         public override void Deactivate()
         {
             if (_thisWeapon.Ammo > 0)
-            {
                 WeaponEjection?.Invoke(_thisWeapon.Reserv, transform.position, _thisWeapon.Ammo);
-                //var weapon = Instantiate(_thisWeapon.Reserv, 
-                //    transform.position, Quaternion.identity, LevelManager.Drop);
-                //weapon.SetAmmo(_thisWeapon.Ammo);
-            }
             base.Deactivate();
         }
     }

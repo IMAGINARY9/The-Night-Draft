@@ -6,6 +6,7 @@ namespace Assets.Scripts
 {
     public abstract class Weapon : MonoBehaviour
     {
+        public Action<int> AmmoChanged;
         [SerializeField] private float rechargeTime;
         [SerializeField] private WeaponBonus _reserv;
         public WeaponBonus Reserv => _reserv;
@@ -34,8 +35,15 @@ namespace Assets.Scripts
         }
         protected virtual void OnUse() 
         {
-            if (--Ammo <= 0)
+
+            if (Ammo <= 1)
+            {
                 Over?.Invoke();
+                return;
+            }
+            else
+                Ammo--;
+            AmmoChanged?.Invoke(Ammo);
         } // => useSound?.Play();
     }
 }

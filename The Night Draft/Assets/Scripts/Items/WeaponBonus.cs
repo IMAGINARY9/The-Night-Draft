@@ -5,6 +5,7 @@ namespace Assets.Scripts
 {
     public class WeaponBonus : Bonus
     {
+        [SerializeField] private Sprite _weaponUI;
         [SerializeField] private Weapon _weapon;
         [SerializeField] private int _ammo;
         public void SetAmmo(int count) => _ammo = count;
@@ -16,7 +17,7 @@ namespace Assets.Scripts
             WeaponComponent currentWeapon = collector.GetComponent<WeaponComponent>();
             currentWeapon?.Deactivate();
             WeaponComponent newWeapon = collector.AddComponent<WeaponComponent>();
-            newWeapon.SetWeapon(_weapon, _ammo);
+            newWeapon.SetWeapon(_weaponUI, _weapon, _ammo);
 
         }
 

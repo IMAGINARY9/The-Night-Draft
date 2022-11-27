@@ -9,7 +9,7 @@ namespace Assets.Scripts
 
         [SerializeField] private int _hp;
 
-        protected int HP { get; private set; }
+        public int HP { get; private set; }
         public event Action<int> HPChanged;
 
         private void Awake()
