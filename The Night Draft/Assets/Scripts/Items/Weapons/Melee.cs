@@ -10,7 +10,9 @@ namespace Assets.Scripts
         //anim
         protected override void OnUse()
         {
-            if (_damageZone.Collider.TryGetComponent<IWeaponVisitor>(out var visitor))
+            var col = _damageZone.Collider;
+            if (col == null) return;
+            if (col.TryGetComponent<IWeaponVisitor>(out var visitor))
                 visitor.Visit(this);
         }
 

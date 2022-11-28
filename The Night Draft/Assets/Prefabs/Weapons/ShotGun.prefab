@@ -189,9 +189,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 2
-  _rechargeTime: 1
+  _rechargeTime: 0.625
   _reserv: {fileID: 1228517683329471908, guid: bc89bef83a86d5040902f744376fbb3a, type: 3}
   bullet: {fileID: 2026678642563158615, guid: 231328025e1386240b52dcc0ffab26df, type: 3}
   shootPoint: {fileID: 6829839773779131235}
   stats: {fileID: 11400000, guid: 365d2da0bd0936a42bbe4a340d65ea15, type: 2}
-  _bulletCount: 5
+  _bulletCount: 10
