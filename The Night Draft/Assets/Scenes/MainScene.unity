@@ -3520,6 +3520,7 @@ Transform:
   - {fileID: 61371361}
   - {fileID: 195685497}
   - {fileID: 1372126965}
+  - {fileID: 1715674183}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4014,8 +4015,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280359972
-  m_fontColor: {r: 0.14117648, g: 0.10980393, b: 0.12941177, a: 1}
+    rgba: 4281412916
+  m_fontColor: {r: 0.20392159, g: 0.1764706, b: 0.19215688, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4407,6 +4408,63 @@ Transform:
   m_Father: {fileID: 2246574400359483163}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1020780494
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 760491778}
+    m_Modifications:
+    - target: {fileID: 3619088164005769729, guid: 743af2c709a215b4794d314fb93c42be, type: 3}
+      propertyPath: m_Name
+      value: MedKit
+      objectReference: {fileID: 0}
+    - target: {fileID: 3619088164005769852, guid: 743af2c709a215b4794d314fb93c42be, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3619088164005769852, guid: 743af2c709a215b4794d314fb93c42be, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.5558078
+      objectReference: {fileID: 0}
+    - target: {fileID: 3619088164005769852, guid: 743af2c709a215b4794d314fb93c42be, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.6760738
+      objectReference: {fileID: 0}
+    - target: {fileID: 3619088164005769852, guid: 743af2c709a215b4794d314fb93c42be, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3619088164005769852, guid: 743af2c709a215b4794d314fb93c42be, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3619088164005769852, guid: 743af2c709a215b4794d314fb93c42be, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3619088164005769852, guid: 743af2c709a215b4794d314fb93c42be, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3619088164005769852, guid: 743af2c709a215b4794d314fb93c42be, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3619088164005769852, guid: 743af2c709a215b4794d314fb93c42be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3619088164005769852, guid: 743af2c709a215b4794d314fb93c42be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3619088164005769852, guid: 743af2c709a215b4794d314fb93c42be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 743af2c709a215b4794d314fb93c42be, type: 3}
 --- !u!1 &1053422695
 GameObject:
   m_ObjectHideFlags: 0
@@ -6420,7 +6478,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1692764622}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.207, y: -0.684, z: 0}
+  m_LocalPosition: {x: 0.947, y: -0.649, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6490,6 +6548,11 @@ MonoBehaviour:
   _targetTag: Player
   _vision: {fileID: 1843844098}
   _rayLenght: 1
+--- !u!4 &1715674183 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3619088164005769852, guid: 743af2c709a215b4794d314fb93c42be, type: 3}
+  m_PrefabInstance: {fileID: 1020780494}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1718020875
 GameObject:
   m_ObjectHideFlags: 0
@@ -11732,11 +11795,6 @@ MonoBehaviour:
   _sprites:
   - {fileID: 21300000, guid: 90f0746461f09b44bba660bcb123bbda, type: 3}
   - {fileID: 21300000, guid: f702a3e9a3311a242984c0c067c4f287, type: 3}
-  _layers:
-  - serializedVersion: 2
-    m_Bits: 2048
-  - serializedVersion: 2
-    m_Bits: 8192
 --- !u!61 &5178366412051057312
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12376,6 +12434,7 @@ MonoBehaviour:
   - {fileID: 3619088164005769854, guid: 868a109b62737d246b75894529a68d4c, type: 3}
   - {fileID: 4432684949373863515, guid: 16c94f145b51b8a45a2b4f603968f7c2, type: 3}
   - {fileID: 1228517683329471908, guid: bc89bef83a86d5040902f744376fbb3a, type: 3}
+  - {fileID: 0}
   _drop: {fileID: 760491778}
 --- !u!212 &6121306064106019129
 SpriteRenderer:
@@ -12619,11 +12678,6 @@ MonoBehaviour:
   _sprites:
   - {fileID: 21300000, guid: 90f0746461f09b44bba660bcb123bbda, type: 3}
   - {fileID: 21300000, guid: f702a3e9a3311a242984c0c067c4f287, type: 3}
-  _layers:
-  - serializedVersion: 2
-    m_Bits: 2048
-  - serializedVersion: 2
-    m_Bits: 8192
 --- !u!61 &6214415004470084422
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13224,11 +13278,6 @@ MonoBehaviour:
   _sprites:
   - {fileID: 21300000, guid: 90f0746461f09b44bba660bcb123bbda, type: 3}
   - {fileID: 21300000, guid: f702a3e9a3311a242984c0c067c4f287, type: 3}
-  _layers:
-  - serializedVersion: 2
-    m_Bits: 2048
-  - serializedVersion: 2
-    m_Bits: 8192
 --- !u!61 &7164320092467177253
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13400,11 +13449,6 @@ MonoBehaviour:
   _sprites:
   - {fileID: 21300000, guid: 90f0746461f09b44bba660bcb123bbda, type: 3}
   - {fileID: 21300000, guid: f702a3e9a3311a242984c0c067c4f287, type: 3}
-  _layers:
-  - serializedVersion: 2
-    m_Bits: 2048
-  - serializedVersion: 2
-    m_Bits: 8192
 --- !u!61 &7363528133794167568
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13734,11 +13778,6 @@ MonoBehaviour:
   _sprites:
   - {fileID: 21300000, guid: 90f0746461f09b44bba660bcb123bbda, type: 3}
   - {fileID: 21300000, guid: f702a3e9a3311a242984c0c067c4f287, type: 3}
-  _layers:
-  - serializedVersion: 2
-    m_Bits: 2048
-  - serializedVersion: 2
-    m_Bits: 8192
 --- !u!4 &7863608710852847927
 Transform:
   m_ObjectHideFlags: 0
@@ -13883,11 +13922,6 @@ MonoBehaviour:
   _sprites:
   - {fileID: 21300000, guid: 90f0746461f09b44bba660bcb123bbda, type: 3}
   - {fileID: 21300000, guid: f702a3e9a3311a242984c0c067c4f287, type: 3}
-  _layers:
-  - serializedVersion: 2
-    m_Bits: 2048
-  - serializedVersion: 2
-    m_Bits: 8192
 --- !u!61 &8048442166747435494
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14606,11 +14640,6 @@ MonoBehaviour:
   _sprites:
   - {fileID: 21300000, guid: 90f0746461f09b44bba660bcb123bbda, type: 3}
   - {fileID: 21300000, guid: f702a3e9a3311a242984c0c067c4f287, type: 3}
-  _layers:
-  - serializedVersion: 2
-    m_Bits: 2048
-  - serializedVersion: 2
-    m_Bits: 8192
 --- !u!61 &9081396311292640001
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14719,11 +14748,6 @@ MonoBehaviour:
   _sprites:
   - {fileID: 21300000, guid: 90f0746461f09b44bba660bcb123bbda, type: 3}
   - {fileID: 21300000, guid: f702a3e9a3311a242984c0c067c4f287, type: 3}
-  _layers:
-  - serializedVersion: 2
-    m_Bits: 2048
-  - serializedVersion: 2
-    m_Bits: 8192
 --- !u!61 &9163988733363464702
 BoxCollider2D:
   m_ObjectHideFlags: 0

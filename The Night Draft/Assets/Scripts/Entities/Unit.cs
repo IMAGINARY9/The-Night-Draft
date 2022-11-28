@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Assets.Scripts
 {
-    public class Unit : MonoBehaviour, IDamageable
+    public class Unit : MonoBehaviour, IDamageable, IHealable
     {
         [SerializeField] private int _hp;
 
@@ -22,7 +22,12 @@ namespace Assets.Scripts
                 Die();
             HPChanged?.Invoke(HP);
         }
-
+        public void ApplyHeal()
+        {
+            if (++HP > _hp)
+                HP = _hp;
+            HPChanged?.Invoke(HP);
+        }
         protected virtual void Die() { }
 
     }
