@@ -13,13 +13,13 @@ namespace Assets.Scripts
             return Physics2D.Raycast(transform.position, Vector2.right, visionLenght, _layerMask);
         }
 
-        public Transform FindByTag(float visionLenght, string tag)
+        public Collider2D ColliderByTag(float visionLenght, string tag)
         {
             Debug.DrawRay(transform.position, rayDir * visionLenght, Color.red);
             var hit = Physics2D.Raycast(transform.position, Vector2.right, visionLenght, _layerMask);
             if (hit.collider != null)
-                if (hit.collider.gameObject.CompareTag(tag))
-                    return hit.transform;
+                if (hit.collider.CompareTag(tag))
+                    return hit.collider;
             return null;
         }
     }

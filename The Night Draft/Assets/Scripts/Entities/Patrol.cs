@@ -6,7 +6,8 @@ namespace Assets.Scripts
     public class Patrol : MonoBehaviour
     {
         [SerializeField] private Overlap _wallCheck;
-        [SerializeField] private float _speed;
+        [SerializeField] private float _walkSpeed;
+        [SerializeField] private float _runSpeed;
         [SerializeField] private Vector2 _reconsiderTime;
         private float _changeWayTime;
         private int _walkDir;
@@ -14,7 +15,7 @@ namespace Assets.Scripts
         public bool IsRight { get; private set; }
 
         public bool IsObstacle => _wallCheck.IsCollided;
-        void Start()
+        void Awake()
         {
             _rb = GetComponent<Rigidbody2D>();
             ResetTimer();
@@ -33,6 +34,12 @@ namespace Assets.Scripts
                 return Random.Range(-1, 2);
         }
 
+        public void Move(float dir)
+        {
+            _rb.position += Vector2.right *
+                dir * _runSpeed * 0.1f * Time.fixedDeltaTime;
+        }
+
         public void Move()
         {
             if (IsObstacle)
@@ -45,7 +52,7 @@ namespace Assets.Scripts
             }
 
             _rb.position += Vector2.right *
-                _walkDir * _speed * 0.1f * Time.fixedDeltaTime;
+                _walkDir * _walkSpeed * 0.1f * Time.fixedDeltaTime;
 
             if ((_walkDir > 0 && !IsRight)
                 || (_walkDir < 0 && IsRight))
