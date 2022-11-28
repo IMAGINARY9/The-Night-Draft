@@ -63,7 +63,8 @@ namespace Assets.Scripts
         void Rotate()
         {
 
-            if ((_horizontal > 0 && !IsRight) || (_horizontal < 0 && IsRight))
+            if ((_horizontal > 0 && !IsRight) 
+                || (_horizontal < 0 && IsRight))
                 Flip();
 
             void Flip()
