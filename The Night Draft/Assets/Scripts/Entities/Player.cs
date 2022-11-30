@@ -7,7 +7,7 @@ namespace Assets.Scripts
     {
         //[SerializeField] Joystick moveInput;
         [SerializeField] private PlayerMove _move;
-        [SerializeField] private PlayerAnimator _anim;
+        [SerializeField] private UnitAnimator _anim;
         [SerializeField] private PlayerAttack _attack;
         [SerializeField] private Overlap _objectCheck;
         Vector2 _dir;

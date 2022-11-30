@@ -19,15 +19,7 @@ namespace Assets.Scripts
                 WeaponChanged?.Invoke();
             }
         }
-
-        
         public Transform GetWeaponHolder() => _weaponHolder;
-
-        public void Attack()
-        {
-            _weapon.Use();
-        }
-
-
+        public void Attack() => _weapon.Use();
     }
 }

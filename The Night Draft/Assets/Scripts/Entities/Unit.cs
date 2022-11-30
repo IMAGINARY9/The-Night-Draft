@@ -11,7 +11,7 @@ namespace Assets.Scripts
         public int HP { get; private set; }
         public event Action<int> HPChanged;
 
-        private void Awake()
+        protected virtual void Awake()
         {
             HP = _hp;
         }

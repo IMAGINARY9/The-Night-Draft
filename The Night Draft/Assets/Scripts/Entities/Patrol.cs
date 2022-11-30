@@ -6,12 +6,10 @@ namespace Assets.Scripts
     public class Patrol : MonoBehaviour
     {
         [SerializeField] private Overlap _wallCheck;
-        [SerializeField] private float _walkSpeed;
-        [SerializeField] private float _runSpeed;
         [SerializeField] private Vector2 _reconsiderTime;
         private float _changeWayTime;
-        private int _walkDir;
         private Rigidbody2D _rb;
+        public int WalkDir { get; private set; }
         public bool IsRight { get; private set; }
 
         public bool IsObstacle => _wallCheck.IsCollided;
@@ -34,28 +32,28 @@ namespace Assets.Scripts
                 return Random.Range(-1, 2);
         }
 
-        public void Move(float dir)
+        public void Move(float dir, float speed)
         {
             _rb.position += Vector2.right *
-                dir * _runSpeed * 0.1f * Time.fixedDeltaTime;
+                dir * speed * 0.1f * Time.fixedDeltaTime;
         }
 
-        public void Move()
+        public void Move(float speed)
         {
             if (IsObstacle)
-                _walkDir = 0;
+                WalkDir = 0;
 
             if ((_changeWayTime -= Time.deltaTime) <= 0f)
             {
                 ResetTimer();
-                _walkDir = ChooseWay();
+                WalkDir = ChooseWay();
             }
 
             _rb.position += Vector2.right *
-                _walkDir * _walkSpeed * 0.1f * Time.fixedDeltaTime;
+                WalkDir * speed * 0.1f * Time.fixedDeltaTime;
 
-            if ((_walkDir > 0 && !IsRight)
-                || (_walkDir < 0 && IsRight))
+            if ((WalkDir > 0 && !IsRight)
+                || (WalkDir < 0 && IsRight))
                 Flip();
 
             void Flip()

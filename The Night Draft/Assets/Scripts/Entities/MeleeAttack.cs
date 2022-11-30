@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 namespace Assets.Scripts
@@ -7,13 +8,18 @@ namespace Assets.Scripts
     {
         [SerializeField] private Overlap _checkDist;
         [SerializeField] private Weapon _weapon;
-
+        public Action Attacking;
         public void Attack()
         {
             if(_checkDist.IsCollided)
             {
-                print("attack");
-                _weapon.Use();
+                Attacking?.Invoke();
+                StartCoroutine(WaitRoutine());
+                IEnumerator WaitRoutine()
+                {
+                    yield return new WaitForSeconds(0.25f);
+                    _weapon.Use();
+                }
             }
         }
     }

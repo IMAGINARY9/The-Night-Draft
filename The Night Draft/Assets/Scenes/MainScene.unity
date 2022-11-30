@@ -2202,7 +2202,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 467399573}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.192, y: -0.683, z: 0}
+  m_LocalPosition: {x: 0.84, y: -0.609, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2457,7 +2457,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.192, y: -0.683, z: -10}
+  m_LocalPosition: {x: 0.84, y: -0.609, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5615,7 +5615,7 @@ MonoBehaviour:
   _layerMask:
     serializedVersion: 2
     m_Bits: 8
-  _radius: 0.1
+  _radius: 0.03
 --- !u!4 &1381318062
 Transform:
   m_ObjectHideFlags: 0
@@ -5624,7 +5624,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381318060}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.165, y: 0.01, z: 0}
+  m_LocalPosition: {x: 0.16, y: 0.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5794,7 +5794,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1393566840}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.192, y: -0.683, z: -10}
+  m_LocalPosition: {x: 0.84, y: -0.609, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6390,6 +6390,8 @@ GameObject:
   - component: {fileID: 1692764627}
   - component: {fileID: 1692764629}
   - component: {fileID: 1692764628}
+  - component: {fileID: 1692764631}
+  - component: {fileID: 1692764630}
   m_Layer: 9
   m_Name: Zombie
   m_TagString: Untagged
@@ -6478,7 +6480,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1692764622}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.947, y: -0.649, z: 0}
+  m_LocalPosition: {x: -0.697, y: -0.554, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6500,9 +6502,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hp: 50
-  _patrol: {fileID: 1692764627}
   _searcher: {fileID: 1692764629}
   _attack: {fileID: 1692764628}
+  _animator: {fileID: 1692764630}
+  _patrol: {fileID: 1692764627}
+  _walkSpeed: 3
 --- !u!114 &1692764627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6516,8 +6520,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _wallCheck: {fileID: 881311429}
-  _walkSpeed: 3
-  _runSpeed: 5
   _reconsiderTime: {x: 2, y: 8}
 --- !u!114 &1692764628
 MonoBehaviour:
@@ -6548,6 +6550,39 @@ MonoBehaviour:
   _targetTag: Player
   _vision: {fileID: 1843844098}
   _rayLenght: 1
+--- !u!114 &1692764630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692764622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79a178d97a26a4346ba1880a6d8ccfd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 1692764631}
+--- !u!95 &1692764631
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692764622}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2abf3d805b0bb654d86996e9f6948e4a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &1715674183 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3619088164005769852, guid: 743af2c709a215b4794d314fb93c42be, type: 3}
@@ -12434,7 +12469,7 @@ MonoBehaviour:
   - {fileID: 3619088164005769854, guid: 868a109b62737d246b75894529a68d4c, type: 3}
   - {fileID: 4432684949373863515, guid: 16c94f145b51b8a45a2b4f603968f7c2, type: 3}
   - {fileID: 1228517683329471908, guid: bc89bef83a86d5040902f744376fbb3a, type: 3}
-  - {fileID: 0}
+  - {fileID: -3877058018946580521, guid: 743af2c709a215b4794d314fb93c42be, type: 3}
   _drop: {fileID: 760491778}
 --- !u!212 &6121306064106019129
 SpriteRenderer:
