@@ -8,6 +8,7 @@ namespace Assets.Scripts
         [SerializeField] protected Bullet bullet;
         [SerializeField] protected Transform shootPoint;
         [SerializeField] protected WeaponObject stats;
+        [SerializeField] protected ParticleSystem particle;
         
         protected (Vector2, Quaternion) QuaternionCalc(float i)
         {
@@ -24,6 +25,7 @@ namespace Assets.Scripts
         protected override void OnUse()
         {
             base.OnUse();
+            particle.Play();
             CameraShake.Shake(0.05f, stats.Recoil);
             var offset = Random.Range(0f, 1f);
             Instantiate(bullet,

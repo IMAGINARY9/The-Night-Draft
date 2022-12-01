@@ -23,10 +23,11 @@ namespace Assets.Scripts.Entities
         }
 
         private void OnAttack() => _animator.Attack();
-
         private void ResetSpeed() => _speed = _walkSpeed;
+
         private void FixedUpdate()
         {
+            if (Confused) { Stop(); return; }
             if (IsAttack)
             {
                 _speed = _walkSpeed * 2;
@@ -42,8 +43,12 @@ namespace Assets.Scripts.Entities
 
             if (_patrol.WalkDir != 0 || IsAttack)
                 _animator.Move(_speed);
-            else 
-                _animator.Idle();
+            else
+                Stop();
+        }
+        private void Stop()
+        {
+            _animator.Idle();
         }
 
         protected override void Die()

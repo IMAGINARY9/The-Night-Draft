@@ -10,6 +10,7 @@ namespace Assets.Scripts
         static readonly int AttackAnim = Animator.StringToHash("Attack");
         
         [SerializeField] private Animator _animator;
+        [SerializeField] private float _attackAnimTime;
         bool _stateIsLocked = false;
         int currentState;
         void Start()
@@ -18,11 +19,7 @@ namespace Assets.Scripts
         }
 
         public void Idle() => SetState(IdleAnim);
-        public void Attack()
-        {
-            SetState(AttackAnim);
-            LockState(0.25f);
-        }
+        public void Attack() => SetState(AttackAnim, _attackAnimTime);
 
         public void Move(float speed)
         {
@@ -30,21 +27,19 @@ namespace Assets.Scripts
             SetState(WalkAnim);
         }
 
-        private void SetState(int state)
+        private void SetState(int state, float time = 0)
         {
             if (state != currentState && !_stateIsLocked)
             {
                 _animator.CrossFade(state, 0, 0);
                 currentState = state;
             }
-        }
-        private void LockState(float t)
-        {
+
             _stateIsLocked = true;
             StartCoroutine(StateLockRoutine());
             IEnumerator StateLockRoutine()
             {
-                yield return new WaitForSeconds(t);
+                yield return new WaitForSeconds(time);
                 _stateIsLocked = false;
             }
         }

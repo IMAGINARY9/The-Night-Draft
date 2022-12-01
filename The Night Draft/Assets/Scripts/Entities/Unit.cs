@@ -8,11 +8,13 @@ namespace Assets.Scripts
     {
         [SerializeField] private int _hp;
 
+        public bool Confused { get; private set; }
         public int HP { get; private set; }
         public event Action<int> HPChanged;
 
         protected virtual void Awake()
         {
+            Confused = false;
             HP = _hp;
         }
 
@@ -28,6 +30,18 @@ namespace Assets.Scripts
                 HP = _hp;
             HPChanged?.Invoke(HP);
         }
+        public void Confuse(float time)
+        {
+            Confused = true;
+            StartCoroutine(ConfuseRoutine());
+            IEnumerator ConfuseRoutine()
+            {
+                yield return new WaitForSeconds(time);
+                Confused = false;
+            }
+        }
+
+
         protected virtual void Die() { }
 
     }

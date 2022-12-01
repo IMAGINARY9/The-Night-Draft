@@ -22,6 +22,7 @@ namespace Assets.Scripts
 
         private void Update()
         {
+            if (Confused) return;
             if (Input.GetKey(KeyCode.Space))
                 _attack.Attack();
             if (Input.GetKeyDown(KeyCode.E))
@@ -30,7 +31,7 @@ namespace Assets.Scripts
 
 
                 var obj = _objectCheck.Collider;
-                if(obj != null)
+                if (obj != null)
                     if (obj.TryGetComponent<IInteractive>(out var foundObject))
                         foundObject.Use();
 
@@ -39,6 +40,7 @@ namespace Assets.Scripts
 
         private void FixedUpdate()
         {
+            if (Confused) return;
             MoveInput();
 
             var x = Mathf.Abs(_dir.x);
