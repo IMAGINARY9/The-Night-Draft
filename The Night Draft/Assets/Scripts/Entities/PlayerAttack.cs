@@ -6,9 +6,9 @@ namespace Assets.Scripts
 {
     public class PlayerAttack : MonoBehaviour, IWeaponUser
     {
-        public Action WeaponChanged;
         [SerializeField] private Transform _weaponHolder;
         [SerializeField] private Weapon _weapon;
+        public Action WeaponChanged;
 
         public Weapon CurrentWeapon 
         { 
@@ -20,6 +20,15 @@ namespace Assets.Scripts
             }
         }
         public Transform GetWeaponHolder() => _weaponHolder;
-        public void Attack() => _weapon.Use();
+        public void Attack()
+        {
+            StartCoroutine(WaitRoutine());
+            IEnumerator WaitRoutine()
+            {
+                yield return new WaitForSeconds(0.12f);
+                _weapon.Use();
+            }
+        }
+
     }
 }

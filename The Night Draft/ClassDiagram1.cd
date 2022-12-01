@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Assets.Scripts.MeleeAttack" Collapsed="true">
+  <Class Name="Assets.Scripts.ZombieAttack" Collapsed="true">
     <Position X="7.5" Y="14.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAIAAAAAAAAgAAAAAAAA=</HashCode>
-      <FileName>Assets\Scripts\Entities\MeleeAttack.cs</FileName>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAIAAIAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Entities\ZombieAttack.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Assets.Scripts.Patrol" Collapsed="true">
     <Position X="7.5" Y="15.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AABAAAAAAIAAAAABAAABAAAAAABAQAAAEDQAAMAAAEA=</HashCode>
+      <HashCode>AAAAAAAAAIAAAAABAAABAAAAAABAAAAAEDAAAMAAIEA=</HashCode>
       <FileName>Assets\Scripts\Entities\Patrol.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -22,11 +22,11 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Assets.Scripts.PlayerAnimator" Collapsed="true">
+  <Class Name="Assets.Scripts.UnitAnimator" Collapsed="true">
     <Position X="9.75" Y="14.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAEABAJAAKAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
-      <FileName>Assets\Scripts\Entities\PlayerAnimator.cs</FileName>
+      <HashCode>AAEABAJCIKAAAAAgIAAAAIAAgIAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Entities\UnitAnimator.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Assets.Scripts.PlayerAttack" Collapsed="true" BaseTypeListCollapsed="true">
@@ -47,7 +47,7 @@
   <Class Name="Assets.Scripts.Unit" Collapsed="true">
     <Position X="8.75" Y="12" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAwEAAAAAAAAAACABAAEA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAwEAAAAAAAQAACABQAEA=</HashCode>
       <FileName>Assets\Scripts\Entities\Unit.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -62,7 +62,7 @@
   <Class Name="Assets.Scripts.UnitHitBox" Collapsed="true">
     <Position X="4.75" Y="15" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAgAAQAAAAAAAAAQAAAAAAAAAAAAAAAQAA=</HashCode>
       <FileName>Assets\Scripts\Entities\UnitHitBox.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -84,7 +84,7 @@
   <Class Name="Assets.Scripts.Bullet" Collapsed="true">
     <Position X="4.75" Y="13" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAACAACAAQAAAAAAAAAAAAAAAAQAAAAAgAAAAAAA=</HashCode>
+      <HashCode>AAAAAACAACAAAAAAAAAAAAAAAAAAAAAABAAgAACAAAQ=</HashCode>
       <FileName>Assets\Scripts\Items\Bullet.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -105,7 +105,7 @@
   <Class Name="Assets.Scripts.Gun" Collapsed="true">
     <Position X="1.75" Y="11.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAgABQAAAAAAABAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <HashCode>AAAAgABQAAAAAAABAAgAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
       <FileName>Assets\Scripts\Items\Weapons\Gun.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -155,7 +155,7 @@
   <Class Name="Assets.Scripts.Door" Collapsed="true" BaseTypeListCollapsed="true">
     <Position X="6.75" Y="8.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAIAAAAACCAAIAAQAAAAAAAQAAEEAAAAAAAAAACAAEA=</HashCode>
+      <HashCode>AAIAAAAACCBAIAAQAAAAAAAQAAEEAAAAAAAAAACAAEA=</HashCode>
       <FileName>Assets\Scripts\Objects\Door.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
@@ -255,7 +255,7 @@
   <Class Name="Assets.Scripts.Entities.Zombie" Collapsed="true">
     <Position X="7.5" Y="13.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAgEAAQAgAAAAAAAAAAAAAAAAAAAACAAAAEA=</HashCode>
+      <HashCode>AQAAAAAAAgEAAQCgAAAAAAAAAAgAQAAAJAAACAAAAEA=</HashCode>
       <FileName>Assets\Scripts\Entities\Zombie.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -332,7 +332,7 @@
   <Interface Name="Assets.Scripts.IWeaponVisitor" Collapsed="true">
     <Position X="4.75" Y="14" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Assets\Scripts\Interfaces\IWeaponVisitor.cs</FileName>
     </TypeIdentifier>
   </Interface>

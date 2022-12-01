@@ -8,6 +8,7 @@ namespace Assets.Scripts
         static readonly int IdleAnim = Animator.StringToHash("Idle");
         static readonly int WalkAnim = Animator.StringToHash("Walk");
         static readonly int AttackAnim = Animator.StringToHash("Attack");
+        static readonly int DieAnim = Animator.StringToHash("Die");
         
         [SerializeField] private Animator _animator;
         [SerializeField] private float _attackAnimTime;
@@ -20,11 +21,18 @@ namespace Assets.Scripts
 
         public void Idle() => SetState(IdleAnim);
         public void Attack() => SetState(AttackAnim, _attackAnimTime);
+        public void Die() => SetStateImmediatly(DieAnim);
 
         public void Move(float speed)
         {
             _animator.SetFloat("velocity", Mathf.Clamp(speed, 0.75f, 1));
             SetState(WalkAnim);
+        }
+
+        private void SetStateImmediatly(int state)
+        {
+            _animator.CrossFade(state, 0, 0);
+            currentState = state;
         }
 
         private void SetState(int state, float time = 0)

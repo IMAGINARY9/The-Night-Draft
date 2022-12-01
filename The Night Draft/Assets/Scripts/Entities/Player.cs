@@ -24,7 +24,11 @@ namespace Assets.Scripts
         {
             if (Confused) return;
             if (Input.GetKey(KeyCode.Space))
+            {
                 _attack.Attack();
+                _anim.Attack();
+                Confuse(0.5f);
+            }
             if (Input.GetKeyDown(KeyCode.E))
             {
                 StartCoroutine(TakingRoutine());

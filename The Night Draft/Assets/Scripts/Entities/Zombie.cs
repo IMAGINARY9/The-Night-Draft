@@ -7,11 +7,12 @@ namespace Assets.Scripts.Entities
     public class Zombie : Unit
     {
         [SerializeField] private Searcher _searcher;
-        [SerializeField] private MeleeAttack _attack;
+        [SerializeField] private ZombieAttack _attack;
         [SerializeField] private UnitAnimator _animator;
         [SerializeField] private Patrol _patrol;
         [SerializeField] private float _walkSpeed;
         private float _speed;
+        public bool IsAlive { get; private set; }
         private bool IsAttack =>
             _searcher.Search(_patrol.IsRight ? 1 : -1);
 
@@ -19,6 +20,7 @@ namespace Assets.Scripts.Entities
         {
             base.Awake();
             ResetSpeed();
+            IsAlive = true;
             _attack.Attacking += OnAttack;
         }
 
@@ -27,6 +29,7 @@ namespace Assets.Scripts.Entities
 
         private void FixedUpdate()
         {
+            if (!IsAlive) return;
             if (Confused) { Stop(); return; }
             if (IsAttack)
             {
@@ -55,7 +58,9 @@ namespace Assets.Scripts.Entities
         {
             base.Die();
             _attack.Attacking -= OnAttack;
-            Destroy(gameObject);
+            IsAlive = false;
+            _animator.Die();
+            Destroy(gameObject, 0.75f);
         }
     }
 }

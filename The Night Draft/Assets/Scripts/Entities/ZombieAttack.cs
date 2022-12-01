@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Assets.Scripts
 {
-    public class MeleeAttack : MonoBehaviour
+    public class ZombieAttack : MonoBehaviour
     {
         [SerializeField] private Overlap _checkDist;
         [SerializeField] private Weapon _weapon;
