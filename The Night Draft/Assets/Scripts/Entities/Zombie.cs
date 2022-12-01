@@ -30,7 +30,7 @@ namespace Assets.Scripts.Entities
             if (Confused) { Stop(); return; }
             if (IsAttack)
             {
-                _speed = _walkSpeed * 2;
+                _speed = _walkSpeed * 4;
                 _patrol.Move(_searcher.TargetPosition.x
                     - transform.position.x, _speed);
                 _attack.Attack();
