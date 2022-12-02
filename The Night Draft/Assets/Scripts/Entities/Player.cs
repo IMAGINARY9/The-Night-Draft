@@ -27,7 +27,7 @@ namespace Assets.Scripts
             {
                 _attack.Attack();
                 _anim.Attack();
-                Confuse(0.5f);
+                Confuse(0.15f);
             }
             if (Input.GetKeyDown(KeyCode.E))
             {
@@ -72,7 +72,11 @@ namespace Assets.Scripts
             yield return new WaitForFixedUpdate();
             ReadyToTake = false;
         }
+        public override void ApplyDamage(int damage)
+        {
+            base.ApplyDamage(damage);
+            LightFlicker.Flicker(0.75f, 1f);
+        }
 
-        
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 namespace Assets.Scripts
 {
@@ -9,6 +10,7 @@ namespace Assets.Scripts
         [SerializeField] protected Transform shootPoint;
         [SerializeField] protected WeaponObject stats;
         [SerializeField] protected ParticleSystem particle;
+        [SerializeField] protected Light2D spark;
         
         protected (Vector2, Quaternion) QuaternionCalc(float i)
         {
@@ -27,10 +29,19 @@ namespace Assets.Scripts
             base.OnUse();
             particle.Play();
             CameraShake.Shake(0.05f, stats.Recoil);
+            StartCoroutine(SparkRoutine());
             var offset = Random.Range(0f, 1f);
             Instantiate(bullet,
                 QuaternionCalc(offset).Item1,
                 shootPoint.rotation * QuaternionCalc(offset).Item2).Damage = damage;
+           
         }
+        IEnumerator SparkRoutine()
+        {
+            spark.intensity = 3;
+            yield return new WaitForFixedUpdate();
+            spark.intensity = 0;
+        }
+
     }
 }

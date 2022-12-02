@@ -7,7 +7,6 @@ namespace Assets.Scripts
     {
         [SerializeField] private Overlap _damageZone;
         public int Damage => damage;
-        //anim
         protected override void OnUse()
         {
             var col = _damageZone.Collider;

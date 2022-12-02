@@ -10,7 +10,7 @@ namespace Assets.Scripts
 
         public bool Confused { get; private set; }
         public int HP { get; private set; }
-        public event Action<int> HPChanged;
+        public Action<int> HPChanged;
 
         protected virtual void Awake()
         {
@@ -18,13 +18,13 @@ namespace Assets.Scripts
             HP = _hp;
         }
 
-        public void ApplyDamage(int damage)
+        public virtual void ApplyDamage(int damage)
         {
             if ((HP -= Mathf.Max(damage, 1)) <= 0)
                 Die();
             HPChanged?.Invoke(HP);
         }
-        public void ApplyHeal()
+        public virtual void ApplyHeal()
         {
             if (++HP > _hp)
                 HP = _hp;
