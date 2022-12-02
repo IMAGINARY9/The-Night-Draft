@@ -8,10 +8,12 @@ namespace Assets.Scripts
     {
         private static LightFlicker instance;
         private Light2D _light;
+        private float _originalIntensity;
         private void Awake()
         {
             instance = this;
             _light = GetComponent<Light2D>();
+            _originalIntensity = _light.intensity;
         }
 
         public static void Flicker(float duration, float magnitude)
@@ -21,7 +23,6 @@ namespace Assets.Scripts
 
         IEnumerator FlickerRoutine(float duration, float magnitude)
         {
-            float originalIntensity = _light.intensity;
             float elapsed = 0.0f;
             float max = _light.intensity + magnitude;
             while (elapsed < duration)
@@ -31,7 +32,7 @@ namespace Assets.Scripts
                 elapsed += Time.deltaTime;
                 yield return null;
             }
-            _light.intensity = originalIntensity;
+            _light.intensity = _originalIntensity;
         }
     }
 }
