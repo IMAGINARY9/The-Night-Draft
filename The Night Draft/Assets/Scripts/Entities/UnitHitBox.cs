@@ -15,14 +15,14 @@ namespace Assets.Scripts
         }
         public virtual void Visit(Bullet bullet)
         {
-            print("body");
+            //print("body");
             unit.ApplyDamage(bullet.Damage);
         }
 
         public void Visit(Melee melee)
         {
-            print("body");
-            //confuse
+            //print("body");
+            unit.Confuse(melee.Damage * 0.5f);
             unit.ApplyDamage(melee.Damage);
         }
     }

@@ -8,6 +8,7 @@ namespace Assets.Scripts
     public class PauseMenu : MonoBehaviour
     {
         public static bool GameIsPaused;
+        public static bool GameIsOver;
         [SerializeField] private GameObject _pauseMenuUI;
         [SerializeField] private GameObject _gameOverMenuUI;
         public static event Action GameRestart;
@@ -20,15 +21,13 @@ namespace Assets.Scripts
 
         void Update()
         {
-            //if (Application.platform == RuntimePlatform.Android)
+            if (Input.GetKeyDown(KeyCode.Escape)
+                && !GameIsOver)
             {
-                if (Input.GetKeyDown(KeyCode.Escape))
-                {
-                    if (GameIsPaused)
-                        Resume();
-                    else
-                        Pause();
-                }
+                if (GameIsPaused)
+                    Resume();
+                else
+                    Pause();
             }
         }
 
@@ -37,6 +36,8 @@ namespace Assets.Scripts
             Player.PlayerDied -= GameOver;
             GameRestart?.Invoke();
             Time.timeScale = 1f;
+            GameIsPaused = false;
+            GameIsOver = false;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
@@ -59,6 +60,7 @@ namespace Assets.Scripts
             _gameOverMenuUI.SetActive(true);
             Time.timeScale = 0f;
             GameIsPaused = true;
+            GameIsOver = true;
         }
 
         public void QuitToMainMenu()
@@ -66,6 +68,8 @@ namespace Assets.Scripts
             Player.PlayerDied -= GameOver;
             GameRestart?.Invoke();
             Time.timeScale = 1f;
+            GameIsPaused = false;
+            GameIsOver = false;
             var index = SceneManager.GetActiveScene().buildIndex;
             SceneManager.LoadScene(index - index);
         }
