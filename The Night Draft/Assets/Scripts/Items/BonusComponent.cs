@@ -10,5 +10,8 @@ namespace Assets.Scripts
         public Action Over;
         public virtual void Deactivate() => OnBonusOver();
         protected virtual void OnBonusOver() => Over?.Invoke();
+
+        private void Start() => PauseMenu.GameRestart += Deactivate;
+        private void OnDestroy() => PauseMenu.GameRestart -= Deactivate;
     }
 }

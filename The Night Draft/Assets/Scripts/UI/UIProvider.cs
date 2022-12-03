@@ -16,10 +16,21 @@ namespace Assets.Scripts
         private Weapon _currentWeapon;
         void Start()
         {
+            PauseMenu.GameRestart += Restart;
             _playerWeapon.WeaponChanged += UpdateWeapon;
             WeaponComponent.WeaponUIUpdate += UpdateWeaponIcon;
             _player.HPChanged += UpdateHP;
             UpdateHP(_player.HP);
+        }
+
+        private void Restart()
+        {
+            PauseMenu.GameRestart -= Restart;
+            _playerWeapon.WeaponChanged -= UpdateWeapon;
+            WeaponComponent.WeaponUIUpdate -= UpdateWeaponIcon;
+            _player.HPChanged -= UpdateHP;
+            if(_currentWeapon != null)
+                _currentWeapon.AmmoChanged -= UpdateAmmo;
         }
 
         private void UpdateWeapon()

@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace Assets.Scripts.Entities
+namespace Assets.Scripts
 {
     public class Zombie : Unit
     {
@@ -15,6 +15,8 @@ namespace Assets.Scripts.Entities
         public bool IsAlive { get; private set; }
         private bool IsAttack =>
             _searcher.Search(_patrol.IsRight ? 1 : -1);
+
+        public Action<Zombie> Died;
 
         protected override void Awake()
         {
@@ -57,6 +59,7 @@ namespace Assets.Scripts.Entities
         protected override void Die()
         {
             base.Die();
+            Died?.Invoke(this);
             _attack.Attacking -= OnAttack;
             IsAlive = false;
             _animator.Die();

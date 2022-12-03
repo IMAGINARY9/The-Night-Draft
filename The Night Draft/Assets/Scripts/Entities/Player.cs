@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 namespace Assets.Scripts
@@ -14,6 +15,8 @@ namespace Assets.Scripts
         public float Vertical => _dir.y;
         public CapsuleCollider2D Col { get; private set; }
         public bool ReadyToTake { get; set; }
+
+        public static event Action PlayerDied;
 
         private void Start()
         {
@@ -77,6 +80,10 @@ namespace Assets.Scripts
             base.ApplyDamage(damage);
             LightFlicker.Flicker(0.75f, 1f);
         }
-
+        protected override void Die()
+        {
+            base.Die();
+            PlayerDied?.Invoke();
+        }
     }
 }

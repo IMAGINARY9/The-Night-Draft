@@ -3,57 +3,77 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class PauseMenu : MonoBehaviour
+namespace Assets.Scripts
 {
-    public static bool GameIsPaused;
-    [SerializeField] private GameObject pauseMenuUI;
-
-
-    void Update()
+    public class PauseMenu : MonoBehaviour
     {
-        if (Application.platform == RuntimePlatform.Android)
+        public static bool GameIsPaused;
+        [SerializeField] private GameObject _pauseMenuUI;
+        [SerializeField] private GameObject _gameOverMenuUI;
+        public static event Action GameRestart;
+
+        private void Start()
         {
-            if (Input.GetKeyDown(KeyCode.Escape))
+            Player.PlayerDied += GameOver;
+            LevelManager.GameOver += GameOver;
+        }
+
+        void Update()
+        {
+            //if (Application.platform == RuntimePlatform.Android)
             {
-                if(GameIsPaused)
-                    Resume();
-                else
-                    Pause();
+                if (Input.GetKeyDown(KeyCode.Escape))
+                {
+                    if (GameIsPaused)
+                        Resume();
+                    else
+                        Pause();
+                }
             }
         }
-    }
 
-    public void Restart()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+        public void Restart()
+        {
+            Player.PlayerDied -= GameOver;
+            GameRestart?.Invoke();
+            Time.timeScale = 1f;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
 
-    public void Resume()
-    {
-        pauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;
-        GameIsPaused = false;
-    }
+        public void Resume()
+        {
+            _pauseMenuUI.SetActive(false);
+            Time.timeScale = 1f;
+            GameIsPaused = false;
+        }
 
-    public void Pause()
-    {
-        pauseMenuUI.SetActive(true);
-        Time.timeScale = 0f;
-        GameIsPaused = true;
-    }
+        public void Pause()
+        {
+            _pauseMenuUI.SetActive(true);
+            Time.timeScale = 0f;
+            GameIsPaused = true;
+        }
+        public void GameOver()
+        {
+            Player.PlayerDied -= GameOver;
+            _gameOverMenuUI.SetActive(true);
+            Time.timeScale = 0f;
+            GameIsPaused = true;
+        }
 
-    public void QuitToMainMenu()
-    {
-        Time.timeScale = 1f;
-        var index = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(index - index);
-    }
+        public void QuitToMainMenu()
+        {
+            Player.PlayerDied -= GameOver;
+            GameRestart?.Invoke();
+            Time.timeScale = 1f;
+            var index = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(index - index);
+        }
 
-    public void Quit()
-    {
-        Debug.Log("Quit");
-        Application.Quit();
+        public void Quit()
+        {
+            Debug.Log("Quit");
+            Application.Quit();
+        }
     }
 }

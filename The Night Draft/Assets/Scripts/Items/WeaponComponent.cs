@@ -36,6 +36,7 @@ namespace Assets.Scripts
         {
             if (_thisWeapon.Ammo > 0)
                 WeaponEjection?.Invoke(_thisWeapon.Reserv, transform.position, _thisWeapon.Ammo);
+            _thisWeapon.Over -= OnBonusOver;
             base.Deactivate();
         }
     }
