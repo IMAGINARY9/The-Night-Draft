@@ -6,7 +6,7 @@ namespace Assets.Scripts
 {
     public class Player : Unit, IBonusCollector
     {
-        //[SerializeField] Joystick moveInput;
+        //[SerializeField] Joystick _moveInput;
         [SerializeField] private PlayerMove _move;
         [SerializeField] private UnitAnimator _anim;
         [SerializeField] private PlayerAttack _attack;
@@ -15,6 +15,7 @@ namespace Assets.Scripts
         public float Vertical => _dir.y;
         public CapsuleCollider2D Col { get; private set; }
         public bool ReadyToTake { get; set; }
+        public bool IsAttacking { get; set; }
 
         public static event Action PlayerDied;
 
@@ -26,6 +27,7 @@ namespace Assets.Scripts
         private void Update()
         {
             if (Confused) return;
+            //if (IsAttacking)
             if (Input.GetKey(KeyCode.Space))
             {
                 _attack.Attack();
@@ -44,6 +46,17 @@ namespace Assets.Scripts
 
             }
         }
+        //public void Interactive()
+        //{
+        //    if (Confused) return;
+
+        //    StartCoroutine(TakingRoutine());
+        //    var obj = _objectCheck.Collider;
+        //    if (obj != null)
+        //        if (obj.TryGetComponent<IInteractive>(out var foundObject))
+        //            foundObject.Use();
+
+        //}
 
         private void FixedUpdate()
         {
@@ -59,13 +72,18 @@ namespace Assets.Scripts
         private void MoveInput()
         {
 #if UNITY_ANDROID
-            moveInput.x = h; moveInput.y = v;
+            _dir.x = _moveInput.Horizontal; 
+            var v = _moveInput.Vertical;
+            if (v >= 0.25f || v <= -0.25f)
+                _dir.y = v;
+            else
+                _dir.y = 0;
 #else
             _dir.x = Input.GetAxis("Horizontal");
             _dir.y = Input.GetAxis("Vertical");
 #endif
             //if(_dir != Vector2.zero)
-                _move.Move(_dir.x);
+            _move.Move(_dir.x);
 
         }
 

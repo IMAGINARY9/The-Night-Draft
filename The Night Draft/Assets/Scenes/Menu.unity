@@ -5613,7 +5613,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Controls: \r\n\nE key to interact with interactive objects\r\n\nSpace
-    Key - Make an attack (hit, shot)\r\n\nUse Ts and Y to move up and down stairs"
+    Key - Make an attack (hit, shot)\r\n\nUse W and S to move up and down stairs"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -7453,7 +7453,7 @@ RectTransform:
   m_GameObject: {fileID: 2022162954}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1560496489}

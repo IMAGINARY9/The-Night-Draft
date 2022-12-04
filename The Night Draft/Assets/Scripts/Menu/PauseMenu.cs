@@ -34,6 +34,7 @@ namespace Assets.Scripts
         public void Restart()
         {
             Player.PlayerDied -= GameOver;
+            LevelManager.GameOver -= GameOver;
             GameRestart?.Invoke();
             Time.timeScale = 1f;
             GameIsPaused = false;
@@ -57,6 +58,7 @@ namespace Assets.Scripts
         public void GameOver()
         {
             Player.PlayerDied -= GameOver;
+            LevelManager.GameOver -= GameOver;
             _gameOverMenuUI.SetActive(true);
             Time.timeScale = 0f;
             GameIsPaused = true;
@@ -66,6 +68,7 @@ namespace Assets.Scripts
         public void QuitToMainMenu()
         {
             Player.PlayerDied -= GameOver;
+            LevelManager.GameOver -= GameOver;
             GameRestart?.Invoke();
             Time.timeScale = 1f;
             GameIsPaused = false;
